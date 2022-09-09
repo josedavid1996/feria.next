@@ -1,0 +1,635 @@
+{
+  "HeaderIdiomas": {
+    "value1": "Spanish",
+    "value2": "English",
+    "value3": "Portuguese"
+  },
+  "Inicio": {
+    "titulo": "Welcome to Ovum 2022 - From September 6 to 9",
+    "TextButton": "Get into",
+    "subtitulo": "SAN PEDRO SULA - HONDURAS",
+    "TextButtonRegistrarse": "To register"
+  },
+
+  "ModalInicio": {
+    "campo1": "Email",
+    "campo2": "Password",
+    "textButton": "Get in",
+    "textPassword": "I forgot my password"
+  },
+  "RecuperarContraseña": {
+    "textHeader": "Did you forget your password?",
+    "parrafo1": "Don't worry, we'll send you instructions to reset your password",
+    "campo1": "Email",
+    "textButton": "Recover password",
+    "textFooter": "Return"
+  },
+  "Lobby": {
+    "textHeader1": "Welcome to Ovum 2022",
+    "textHeader2": "From September 6 to 9",
+    "ButtonHeader": "Sign off",
+    "toast": "Welcome"
+  },
+  "ModalCalendario": {
+    "titulo": "Program",
+    "volver": "Return",
+    "tituloParrafo1": "When and where will the Ovum 2022 event take place?",
+    "parrafo1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et.",
+    "tituloParrafo2": "When and where will the Ovum 2022 event take place?",
+    "parrafo2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et.",
+    "tituloParrafo3": "When and where will the Ovum 2022 event take place?",
+    "parrafo3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et."
+  },
+  "ModalMapa": {
+    "titulo": "Plan Ovum 2022",
+    "volver": "Return",
+    "subTitulo1": "CCIC ",
+    "subTitulo2": "Convention and Exhibition Center",
+    "tituloParrafo1": "When and where will the Ovum 2022 event take place?",
+    "parrafo1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et.",
+    "tituloParrafo2": "When and where will the Ovum 2022 event take place?",
+    "parrafo2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et.",
+    "tituloParrafo3": "When and where will the Ovum 2022 event take place?",
+    "parrafo3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et."
+  },
+  "ModalQuestion": {
+    "titulo": "Frequent questions",
+    "volver": "Return",
+    "informacion": "Information",
+    "pregunta1": {
+      "titulo": "When and where will Ovum 2022 be held?",
+      "texto1": "The Ovum 2022 will be held in San Pedro Sula, Honduras from September 6 to 9, 2022"
+    },
+    "pregunta2": {
+      "titulo": "Who can attend Ovum 2022?",
+      "texto1": "Registration is open to anyone interested in Ovum 2022. Check registration fees to see this year's registration fees."
+    },
+    "pregunta3": {
+      "titulo": "Is simultaneous interpretation service offered during the event?",
+      "texto1": "Ovum 2022 offers interpretation services in several languages during the opening ceremony, the general sessions and the closing ceremony. Most of the parallel sessions will be held in Spanish, but some of them could also offer this service. Check the event program to check which sessions will have a Spanish interpretation service."
+    },
+    "pregunta4": {
+      "titulo": "What is the temperature in Honduras in September?",
+      "texto1": "In the month of September, temperatures range between 25 and 28 degrees Celsius.",
+      "texto2": "Since the convention center is air-conditioned, consider bringing a light jacket or sweater."
+    },
+    "pregunta5": {
+      "entrada": "Inscription",
+      "titulo": "How do I sign up?",
+      "texto1": "Those interested in attending the event can register themselves and their guests online at ",
+      "texto3": ". If you wish, you can also register at the venue of the event"
+    },
+    "pregunta6": {
+      "titulo": "What is the cost of registration?",
+      "texto1": "Check the complete box of the registration fees, the types of participants, and what your registration includes.",
+      "texto2": "Online cancellation (preferred method)",
+      "texto3": "Cancellation by email: operations@anavih.com",
+      "texto4": "Cancellation by fax: +504 3297-4088",
+      "texto5": "How do I register a guest?",
+      "texto6": "You can add a guest to your registration at "
+    },
+    "pregunta7": {
+      "titulo": "I canceled my registration, how can I re-register?",
+      "texto1": "Unfortunately, once the registration is cancelled, it cannot be created again online. If you wish to re-register, you will need to fax or mail the registration and ticket order form.",
+      "texto2": "The current registration fee will apply."
+    },
+    "pregunta8": {
+      "entrada": "accommodation and transportation",
+      "titulo": "What should I do to book a hotel room and what are your rates per night?",
+      "texto1": "Ovum 2022 offers you different hotels and rates in San Pedro Sula. Click here to see "
+    },
+    "pregunta9": {
+      "entrada": "Transport",
+      "titulo": "What transportation will be offered?",
+      "texto1": "Ovum 2022 will provide bus service suitable for people with disabilities, between the official contracted hotels Ovum 2022 and the Convention Center of the Chamber of Commerce and Industries of Cortés."
+    },
+    "pregunta10": {
+      "titulo": "Are there other methods of transportation?",
+      "texto1": "San Pedro Sula has a public transportation system, called the Great Metropolitan Central of San Pedro Sula, the largest and most modern bus terminal in Central America. Taxis and rideshares (including Uber) are also available."
+    },
+    "pregunta11": {
+      "entrada": "Travels",
+      "titulo": "What should I do to obtain a visa to travel to the event?",
+      "texto1": "Go to ",
+      "texto2": " or visit the Department of Honduras website to find out who needs a visa and when to apply, as well as additional information. Visa information varies by country of citizenship. Ovum 2022 provides consulates and embassies with an up-to-date list of registrants for the event and requests that visas be granted to as many registrants as possible, but the granting of such visas is ultimately up to the Honduran government. Ovum 2022 cannot intervene on behalf of individual registrants."
+    },
+    "pregunta12": {
+      "titulo": "What immigration requirements are there to enter Honduras?",
+      "texto1": "-Passengers must carry out an electronic migratory pre-registration, establishing the date of entry and exit to the country.",
+      "texto2": "-Immunized passengers must carry the original card that was issued to them at the site of application of the vaccine, which must contain the complete dose schedule, with a time later than 14 days from it’s implementation.",
+      "texto3": "-If you have not been vaccinated, you must upload the result of any test for the detection of COVID-19 accepted in the country: Antigen detection swab and rt-PCR swab. The provision to carry out said test is maintained in a time not greater than seventy-two (72) hours prior to the trip.",
+      "texto4": "-Compliance with biosecurity measures.",
+      "texto5": "-Passengers of South American origin must carry their yellow fever vaccination card"
+    },
+    "pregunta13": {
+      "entrada": "Events",
+      "titulo": "What events can I attend during Ovum 2022?",
+      "texto1": "Convention registration includes the following events:",
+      "itemBold1": "Opening ceremony: september 6",
+      "item1": "september 6",
+      "itemBold2": "General Sessions: ",
+      "item2": "From September 7 to 9",
+      "itemBold3": "Parallel sessions: ",
+      "item3": "From September 7 to 9",
+      "itemBold4": "Closing ceremony: ",
+      "item4": "September 9",
+      "texto2": "Convention Center of the Chamber of Commerce and Industries of Cortés, in the commercial capital of northern Catracho, San Pedro Sula, Honduras from September 6 to 9"
+    }
+  },
+  "Template": {
+    "textHeader1": "Welcome to Ovum 2022",
+    "textHeader2": "From September 6 to 9",
+    "ButtonHeader": "Sign off"
+  },
+  "Ovum": {
+    "volver": "Return",
+    "modalTitulo": "Welcome to OVUM 2022!",
+    "parrafo1": "I am pleased to address you on behalf of the Latin American Poultry Farmers Association and the Honduran National Poultry Farmers Association, as the Organizing Committee of OVUM 2022. We warmly welcome you to San Pedro Sula, thank you for your kind assistance in an unforgettable experience. : The XXVII Latin American Poultry Congress is bringing together scientists, nutritionists, and high-level specialists for the exchange of experiences in matters of health, innovation, animal welfare, safety, and antibiotic-free production for the benefit of the world population.",
+    "parrafo2": "During your stay you will be able to enjoy the Commercial Fair, Scientific Conferences and for the first time in the OVUM a series of very enriching Drills.",
+    "parrafo3": "We are extremely excited to welcome you; Thank you for coming and visiting San Pedro Sula, for being here in Honduras, welcome to the land of the Mayans! A land blessed by its heritage, historical and cultural legacy. A land of inexhaustible tourist attraction, exuberant beaches that conquer the world and, of course, with an extraordinary potential for business. A land of warm, hard-working and enterprising people. A rich and generous land that transcends time and space.",
+    "parrafo4": "With all my appreciation,"
+  },
+  "Exposicion": {
+    "botonIntro": "Skip intro",
+    "volver": "Return",
+    "modalTitulo": "Sponsorships",
+    "cardTitulo1": "Sponsorships",
+    "cardTitulo2": "Sponsor",
+    "cardTitulo3": "Sponsor",
+    "cardTitulo4": "Sponsor",
+    "cardTitulo5": "Sponsor",
+    "cardTitulo6": "Sponsor",
+    "cardTitulo7": "Basic Booths"
+  },
+  "Conferencista": {
+    "titulo": "SPEAKERS",
+    "cards": [
+      {
+        "nombre": "Gary Butcher",
+        "foto": "Gary-Butcher",
+        "cardParrafo": "Avian Infectious Bronchitis Variants, New Challenges for Latin America",
+        "fecha": "Mie. 7 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Kate Barger",
+        "foto": "Kate-Barger",
+        "cardParrafo": "Animal Welfare-History, Evolution and Practical Implementation for the Poultry Industry",
+        "fecha": "Mie. 7 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Eduardo Cervantes Lopez",
+        "foto": "Eduardo-Cervantes-Lopez",
+        "cardParrafo": "Digital Flight Plan to Standardize Seizures, Increasing Carcass Dry Performance at the Plant",
+        "fecha": "Mie. 7 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Leticia Arroyo",
+        "foto": "Leticia-Arroyo",
+        "cardParrafo": "Development of Augmented, Virtual and Mixed Reality Projects for the Poultry Sector",
+        "fecha": "Mie. 7 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Rafael Fernández",
+        "foto": "Rafael-Fernández",
+        "cardParrafo": "Infectious Laryngotracheitis, Newcastle Disease and Avian Influenza, Continuous Threat to Latin American Poultry",
+        "fecha": "Mie. 7 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Santiago Avendaño",
+        "foto": "Santiago-Avendaño",
+        "cardParrafo": "Genetics, Animal Welfare and Sustainability",
+        "fecha": "Mie. 7 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Juan F. Devillena",
+        "foto": "Juan-F-Devillena",
+        "cardParrafo": "New Approach for Pathogen Control and Food Safety Management in Poultry Processing: Biomap of Indicators and Pathogens in Normal Chemical Concentrations vs. Reduced.",
+        "fecha": "Mie. 7 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Liliana Alvarado",
+        "foto": "Liliana-Alvarado",
+        "cardParrafo": "The Importance of the Senses",
+        "fecha": "Mie. 7 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "David Swayne",
+        "foto": "David-Swayne",
+        "cardParrafo": "The US Experience in Avian Influenza and its Recommendations for Latin America",
+        "fecha": "Mie. 7 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Mark Allen",
+        "foto": "Mark-Allen",
+        "cardParrafo": "Experience of the European Egg Industry against Cage-Free Production and its Recommendations for Latin America",
+        "fecha": "Mie. 7 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Veerle Hautekiet",
+        "foto": "Veerle-Hautekiet",
+        "cardParrafo": "Gut Health Management without Antibiotics",
+        "fecha": "Mie. 7 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Peter Ferket",
+        "foto": "Peter-Ferket",
+        "cardParrafo": "In Ovo Nutrition",
+        "fecha": "Mie. 7 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "María del Pilar Castañeda",
+        "foto": "María-del-Pilar-Castañeda",
+        "cardParrafo": "Animal Welfare in Capture, Transport and Slaughter of Broiler",
+        "fecha": "Mie. 7 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Rebeca Zamora",
+        "foto": "Rebeca-Zamora",
+        "cardParrafo": "Commercial Broiler Welfare Assessment",
+        "fecha": "Mie. 7 Sep.12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Juan Carlos López",
+        "foto": "Juan-Carlos-Lopez",
+        "cardParrafo": "Avian Diseases Affecting Breeders and their Effects on Hatchability and Eggshell Quality",
+        "fecha": "Mie. 7 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Joe DePippo",
+        "foto": "Joe-DePippo",
+        "cardParrafo": "Consumer Trends",
+        "fecha": "Mie. 7 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Enrique Montiel",
+        "foto": "Enrique-Montiel",
+        "cardParrafo": "The Importance of Feed in the Transmission of Pathogens in Modern Poultry Farming: The Challenge of Producing Antibiotic-Free Poultry",
+        "fecha": "Jue. 8 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Wanderley Quinteiro Filho",
+        "foto": "Wanderley-Quinteiro-Filho",
+        "cardParrafo": "The Importance of Biomarkers for Assessing Gut Health",
+        "fecha": "Jue. 8 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Fernando Sampedro",
+        "foto": "Fernando-Sampedro",
+        "cardParrafo": "Microbiological Risk Assessment: The Importance of Quantification and Serotyping",
+        "fecha": "Jue. 8 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Leonardo Tielo de la Vega",
+        "foto": "Leonardo-Tielo-de-la-Vega",
+        "cardParrafo": "Animal Welfare Applied to Commercial Promotion",
+        "fecha": "Jue. 8 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Algis Martinez",
+        "foto": "Algis-Martinez",
+        "cardParrafo": "Sanitary Program in Breeders with a Focus on Producing Antibiotic-Free Chickens",
+        "fecha": "Jue. 8 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Alba Fireman",
+        "foto": "Alba-Fireman",
+        "cardParrafo": "Micromineral Nutrition of Hens",
+        "fecha": "Jue. 8 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Marcos Sanchez Plata",
+        "foto": "Marcos-Sanchez-Plata",
+        "cardParrafo": "Interventions in the Process Plant to Control Salmonella, as an Immediate Control Measure, in Cases of Increased Prevalence of the Pathogen in the Field.",
+        "fecha": "Jue. 8 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Winfridus Bakker",
+        "foto": "Winfridus-Bakker",
+        "cardParrafo": "Advances in Breeder Technology",
+        "fecha": "Jue. 8 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Swamy Haladi",
+        "foto": "Swamy-Haladi",
+        "cardParrafo": "Unraveling the Mystery of Mycotoxins in Poultry: From Raw Material to Feed, Transport and Organ Toxicity.",
+        "fecha": "Jue. 8 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Wilmer Pacheco",
+        "foto": "Wilmer-Pacheco",
+        "cardParrafo": "Effect of Particle Size and Pellet Quality on Broiler Performance",
+        "fecha": "Jue. 8 Sep.11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Leon Schouren Tea Key",
+        "foto": "Leon-Schouren-Tea-Key",
+        "cardParrafo": "In Ovo Sexing: A New Reality in Europe",
+        "fecha": "Jue. 8 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Mario Penz",
+        "foto": "Mario-Penz",
+        "cardParrafo": "Precision Nutrition",
+        "fecha": "Jue. 8 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Martha Pulido",
+        "foto": "Martha-Pulido",
+        "cardParrafo": "Importance of the 'Infection Pressure' Concept in the Control of Paratyphoid Salmonella and Avian Salmonella in Poultry Production",
+        "fecha": "Jue. 8 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Guillermo Reyes",
+        "foto": "Guillermo-Reyes",
+        "cardParrafo": "Antibiotic Free Production? Let's start in the incubator!",
+        "fecha": "Jue. 8 Sep.12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Luis Klein",
+        "foto": "Luis-Klein",
+        "cardParrafo": "Comparison between Different Forms of Whole Turkey Production",
+        "fecha": "Jue. 8 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Marvin Moncada",
+        "foto": "Marvin-Moncada",
+        "cardParrafo": "Alternative Protein Technology, Challenges and Opportunities for the Food Industry",
+        "fecha": "Jue. 8 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Eliana Icochea",
+        "foto": "Eliana-Icochea",
+        "cardParrafo": "Inclusion Body Hepatitis: Emergence of New Serotypes, Conditioning Factors and Control Tools",
+        "fecha": "Vie. 9 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Horacio Gamero",
+        "foto": "Horacio-Gamero",
+        "cardParrafo": " Importance in the Growth of Antibiotic-Free Broiler Birds and its Trend in the Future",
+        "fecha": "Vie. 9 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Rodrigo Espinoza",
+        "foto": "Rodrigo-Espinoza",
+        "cardParrafo": "Antibiotic Free Programs and Reduced Use of Antibiotics in Broiler Production",
+        "fecha": "Vie. 9 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Ricardo Guerra",
+        "foto": "Ricardo-Guerra",
+        "cardParrafo": "Sustainability, Environment and Technology",
+        "fecha": "Vie. 9 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Isabel Gimeno",
+        "foto": "Isabel-Gimeno",
+        "cardParrafo": "Marek's Disease: Diagnosis, Control and Use of Recombinant Vaccines",
+        "fecha": "Vie. 9 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Rogerio Frozza",
+        "foto": "Rogerio-Frozza",
+        "cardParrafo": "How Probiotic Use Positively Affects Animal Welfare, While Reducing Antibiotic Use",
+        "fecha": "Vie. 9 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Fabio Nunes",
+        "foto": "Fabio-Nunes",
+        "cardParrafo": "Strategies to Improve Quality, Yield and Productivity in the Processing Plant",
+        "fecha": "Vie. 9 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Ana Maia",
+        "foto": "Ana-Maia",
+        "cardParrafo": "Poultry 4.0",
+        "fecha": "Vie. 9 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Susan Watkins",
+        "foto": "Susan-Watkins",
+        "cardParrafo": "Water: What Do Poultry Need?",
+        "fecha": "Vie. 9 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Randall Singer",
+        "foto": "Randall-Singer",
+        "cardParrafo": "Reduction of Antibiotic Use in Poultry Production and its Effect, Consumer Perception, Welfare, Animal Health and Economics",
+        "fecha": "Vie. 9 Sep.11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Daniel Valbuena",
+        "foto": "Daniel-Valbuena",
+        "cardParrafo": "The importance of Management in the Expression of the Genetic Potential of the Modern Layer",
+        "fecha": "Vie. 9 Sep.11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Theo Hoen",
+        "foto": "Theo-Hoen",
+        "cardParrafo": "Robotics, Technology and Innovation in the Poultry chain: From the fork to the farm",
+        "fecha": "Vie. 9 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Javier Uriarte",
+        "foto": "Javier-Uriarte",
+        "cardParrafo": "Mycoplasmosis, which Works in its Control, Vaccination, Medication or Both",
+        "fecha": "Vie. 9 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Yordan Matinez Aguilar",
+        "foto": "Yordan-Matinez-Aguilar",
+        "cardParrafo": "New Additives in Poultry Nutrition, Performance and Sustainability",
+        "fecha": "Vie. 9 Sep.12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Rafael Vignoli",
+        "foto": "Rafael-Vignoli",
+        "cardParrafo": "Following the Route of Antibiotic Resistance in the Avian Chain",
+        "fecha": "Vie. 9 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Alejandro Horvath",
+        "foto": "Alejandro-Horvath",
+        "cardParrafo": "Smart Farms",
+        "fecha": "Vie. 9 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      }
+    ]
+  },
+  "Programa": {
+    "botonIntro": "Skip intro",
+    "volver": "Return",
+    "modalTitulo": "Scientific Program"
+  },
+  "Sala": {
+    "botonIntro": "Skip intro",
+    "modalTitulo": "Conference rooms",
+    "volver": "Return",
+    "sala1": "Hall",
+    "sala2": "Hall",
+    "sala3": "Hall",
+    "sala4": "Hall",
+    "videoRoatan7": "https://www.youtube.com/embed/Zvp7Tss-xkM?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoRoatan8": "https://www.youtube.com/embed/G4vhn7b5_OU?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoRoatan9": "https://www.youtube.com/embed/ID2a07hcegE?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoCopan7": "https://www.youtube.com/embed/vT0VG4N_BXA?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoCopan8": "https://www.youtube.com/embed/oQFNSy4oaCI?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoCopan9": "https://www.youtube.com/embed/61w031FvvuM?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoOmoa7": "https://www.youtube.com/embed/QVVb_5a95_4?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoOmoa8": "https://www.youtube.com/embed/nSSeMdgjrfA?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoOmoa9": "https://www.youtube.com/embed/qRsjX3I9Cho?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoYojoa7": "https://www.youtube.com/embed/eKWhqrvfxkw?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoYojoa8": "https://www.youtube.com/embed/doZqfm64H_Y?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoYojoa9": "https://www.youtube.com/embed/krQFf9vaBLU?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1"
+  },
+  "Patrocinador": {
+    "modalTitulo": "Sponsorships / Sponsor",
+    "volver": "Return",
+    "tituloPatrocinador": "SPONSOR"
+  },
+  "AuspiciadorA": {
+    "modalTitulo": "Patrocinios / Sponsor A",
+    "volver": "Return",
+    "tituloPatrocinador": "SPONSOR A"
+  },
+  "AuspiciadorB": {
+    "modalTitulo": "Patrocinios / Sponsor B",
+    "volver": "Return",
+    "tituloPatrocinador": "SPONSOR B"
+  },
+  "AuspiciadorC": {
+    "modalTitulo": "Patrocinios / Sponsor C",
+    "volver": "Return",
+    "tituloPatrocinador": "SPONSOR C"
+  },
+  "AuspiciadorD": {
+    "modalTitulo": "Patrocinios / Sponsor D",
+    "volver": "Return",
+    "tituloPatrocinador": "SPONSOR D"
+  },
+  "AuspiciadorE": {
+    "modalTitulo": "Patrocinios / Sponsor E",
+    "volver": "Return",
+    "tituloPatrocinador": "SPONSOR E"
+  },
+  "StandBasico": {
+    "modalTitulo": "Patrocinios / Basic Booths",
+    "volver": "Return",
+    "tituloPatrocinador": "BASIC BOOTHS"
+  },
+  "PatrocinadorSlug": {
+    "modalTitulo": "Sponsor",
+    "volver": "Return",
+    "informacion": "Informatin",
+    "contacto": "Contact",
+    "direccion": "Address",
+    "telefono": "Phone",
+    "ingresarEmail": "Enter your email",
+    "ingresaConsulta": "Enter your query",
+    "enviar": "Send",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "Linkedin",
+    "Instagram": "Instagram"
+  },
+  "cargill": {
+    "titulo": "cargill"
+  },
+  "cmi": {
+    "titulo": "cargill"
+  }
+}

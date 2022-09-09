@@ -1,0 +1,640 @@
+{
+  "HeaderIdiomas": {
+    "value1": "Español",
+    "value2": "Ingles",
+    "value3": "Portugues"
+  },
+  "Inicio": {
+    "titulo": "Bienvenidos a Ovum 2022 - Del 6 al 9 de septiembre",
+    "subtitulo": "SAN PEDRO SULA - HONDURAS",
+    "TextButton": "Ingresar",
+    "TextButtonRegistrarse": "Registrar"
+  },
+
+  "ModalInicio": {
+    "campo1": "Correo",
+    "campo2": "Contraseña",
+    "textButton": "Entrar",
+    "textPassword": "¿Olvidaste tu contraseña?"
+  },
+  "RecuperarContraseña": {
+    "textHeader": "¿Olvidaste tu contraseña?",
+    "parrafo1": "No te preocupes, te enviaremos instrucciones para que restablezcas tu contraseña",
+    "campo1": "Correo",
+    "textButton": "Recuperar Contraseña",
+    "textFooter": "Volver"
+  },
+  "Lobby": {
+    "textHeader1": "Bienvenidos a Ovum 2022",
+    "textHeader2": "Del 6 al 9 de septiembre",
+    "ButtonHeader": "Cerrar Sesion",
+    "toast": "Bienvenidos"
+  },
+
+  "ModalCalendario": {
+    "titulo": "Programa",
+    "volver": "Volver",
+    "tituloParrafo1": "¿Cuándo y dónde se realizarán el evento Ovum 2022?",
+    "parrafo1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et.",
+    "tituloParrafo2": "¿Cuándo y dónde se realizarán el evento Ovum 2022?",
+    "parrafo2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et.",
+    "tituloParrafo3": "¿Cuándo y dónde se realizarán el evento Ovum 2022?",
+    "parrafo3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et."
+  },
+  "ModalMapa": {
+    "titulo": "Plano Ovum 2022",
+    "subTitulo1": "Centro de ",
+    "subTitulo2": " Convenciones y Exposiciones CCIC",
+    "volver": "Volver",
+    "tituloParrafo1": "¿Cuándo y dónde se realizarán el evento Ovum 2022?",
+    "parrafo1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et.",
+    "tituloParrafo2": "¿Cuándo y dónde se realizarán el evento Ovum 2022?",
+    "parrafo2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et.",
+    "tituloParrafo3": "¿Cuándo y dónde se realizarán el evento Ovum 2022?",
+    "parrafo3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti veniam atque nobis animi quos laudantium quo voluptates minus et."
+  },
+  "ModalQuestion": {
+    "titulo": "Preguntas Frecuentes",
+    "volver": "Volver",
+    "informacion": "Información",
+    "pregunta1": {
+      "titulo": "¿Cuándo y dónde se realizarán el evento Ovum 2022?",
+      "texto1": "El Ovum 2022 se realizará en San Pedro Saula, Honduras desde el 6 al 9 septiembre 2022"
+    },
+    "pregunta2": {
+      "titulo": "¿Quiénes pueden asistir al evento Ovum 2022?",
+      "texto1": "La inscripción está abierta a cualquier persona interesada en Ovum 2022. Consulta las tarifas de inscripción para ver las cuotas de inscripción de este año."
+    },
+    "pregunta3": {
+      "titulo": "¿Se ofrece servicio de interpretación simultánea durante el evento?",
+      "texto1": "Ovum 2022 ofrece servicio de interpretación en varios idiomas durante la ceremonia de apertura, las sesiones generales y la ceremonia de clausura. La mayoría de sesiones paralelas se realizarán en español, pero algunas de ellas podrían también ofrecer este servicio. Consulta el programa del evento para comprobar qué sesiones contarán con servicio de interpretación al español."
+    },
+    "pregunta4": {
+      "titulo": "¿Cuál es la temperatura en Honduras en septiembre?",
+      "texto1": "En el mes de septiembre, las temperaturas oscilan entre los 25 y 28 grados centígrados.",
+      "texto2": "Puesto que el centro de convenciones cuenta con aire acondicionado, considera la posibilidad de utilizar una chaqueta o suéter ligero."
+    },
+    "pregunta5": {
+      "entrada": "Inscripción",
+      "titulo": "¿Cómo me inscribo?",
+      "texto1": "Los interesados en asistir al evento pueden inscribirse ellos mismos y a sus invitados en línea ",
+      "texto3": "Si lo deseas, también podrás inscribirte en la sede del evento"
+    },
+    "pregunta6": {
+      "titulo": "¿Cuál es el costo de la inscripción?",
+      "texto1": "Consulta el recuadro completo de las cuotas de inscripción, los tipos de participante, y lo que incluye tu inscripción.",
+      "texto2": "Cancelación en línea (método preferido)",
+      "texto3": "Cancelación por correo electrónico: operaciones@anavih.com",
+      "texto4": "Cancelación por fax: +504 3297-4088",
+      "texto5": "¿Cómo registro a un invitado?",
+      "texto6": "Podrás agregar un invitado en tu registro en "
+    },
+    "pregunta7": {
+      "titulo": "Cancelé mi registro ¿Cómo puedo volver a registrarme?",
+      "texto1": "Lamentablemente, una vez que se cancela la inscripción, no se puede volver a crear en línea. Si deseas volver a inscribirte, tendrás que enviar por fax o correo el formulario de inscripción y pedido de entradas.",
+      "texto2": "Se aplicará la tarifa de inscripción en vigor."
+    },
+    "pregunta8": {
+      "entrada": "Alojamiento y transporte",
+      "titulo": "¿Qué debo hacer para reservar una habitación de hotel y cuales son sus tarifas por noche?",
+      "texto1": "Ovum 2022 pone a su disponibilidad distintos hoteles y tarifas en San Pedro Sula. Click aquí para ver "
+    },
+    "pregunta9": {
+      "entrada": "Transporte",
+      "titulo": "¿Qué transporte se ofrecerá?",
+      "texto1": "Ovum 2022 proporcionará servicio de autobuses aptos para personas con discapacidades, entre los hoteles oficiales contratados Ovum 2022 y el Centro de Convenciones de la Cámara de Comercio e Industrias de Cortés."
+    },
+    "pregunta10": {
+      "titulo": "¿Existen otros métodos de transporte?",
+      "texto1": "San Pedro Sula, tiene un sistema de transporte público, llamado Gran Central Metropolitana de San Pedro Sula, la terminal de buses mas grande y moderna de Centroamérica. También hay taxis y viajes compartidos (incluidos Uber) disponibles."
+    },
+    "pregunta11": {
+      "entrada": "Viajes",
+      "titulo": "¿Qué debo hacer para obtener un visado para viajar al evento?",
+      "texto1": "Ingresa a ",
+      "texto2": " o visita la página web del Departamento de Honduras para saber quién necesita un visado y cuándo solicitarlo, además de información adicional. La información sobre el visado varía según el país de ciudadanía. Ovum 2022 proporciona a los consulados y embajadas una lista actualizada de los inscritos en el evento y solicita que se concedan visados al mayor número posible de inscritos, pero la concesión de dichos visados depende en última instancia del gobierno de Honduras. Ovum 2022 no puede intervenir en nombre de las personas inscritas individualmente."
+    },
+    "pregunta12": {
+      "titulo": "¿Qué requisitos migratorios hay para entrar a Honduras?",
+      "texto1": "-Los pasajeros deben efectuar un pre-registro migratorio electrónico, estableciendo la fecha de entrada y salida al país.",
+      "texto2": "-Los pasajeros inmunizados deberán portar el carné original que le fue otorgado en el sitio de aplicación de la vacuna, mismo que deberá contener el esquema completo de dosis, con un tiempo ulterior a los 14 días desde su implementación.",
+      "texto3": "-En caso de no haberse vacunado debe subir en este enlace el resultado de cualquier prueba para la detección del COVID-19 aceptada en el país Hisopado de detección de Antígenos e Hisopado rt-PCR. Se mantiene la disposición de realizar dicha prueba en un tiempo no mayor a setenta y dos (72) horas previo al viaje.",
+      "texto4": "-Cumplir con las medidas de bioseguridad.",
+      "texto5": "-Pasajeros de origen Sudamericano deberán portar su carnet de vacunación contra la fiebre amarilla"
+    },
+    "pregunta13": {
+      "entrada": "Eventos",
+      "titulo": "¿A qué eventos podré asistir durante el Ovum 2022?",
+      "texto1": "La inscripción en la convención incluye los siguientes eventos:",
+      "itemBold1": "Ceremonia de apertura: ",
+      "item1": "6 de septiembre",
+      "itemBold2": "Sesiones generales: ",
+      "item2": "Del 7 al 9 de septiembre",
+      "itemBold3": "Sesiones paralelas: ",
+      "item3": "Del 7 al 9 de septiembre",
+      "itemBold4": "Ceremonia de clausura: ",
+      "item4": "9 de septiembre",
+      "texto2": "Centro de Convenciones de la Cámara de Comercio e Industrias de Cortés, en la capital comercial del norte catracho, San Pedro Sula, Honduras del 6 al 9 de septiembre"
+    }
+  },
+  "Template": {
+    "textHeader1": "Bienvenidos a Ovum 2022",
+    "textHeader2": "Del 6 al 9 de septiembre",
+    "ButtonHeader": "Cerrar Sesion"
+  },
+  "Ovum": {
+    "volver": "Volver",
+    "modalTitulo": "¡Bienvenidos al OVUM 2022!",
+    "parrafo1": "Me es grato dirigirme a usted en nombre la Asociación Latinoamericana de Avicultores y de la Asociación Nacional de Avicultores de Honduras, como Comité Organizador de OVUM 2022. Les damos la más cordial Bienvenida a San Pedro Sula, gracias por su gentil asistencia a una experiencia inolvidable: El XXVII Congreso Latinoamericano de Avicultura, está reuniendo a científicos, nutricionistas, especialistas de alto nivel, para el intercambio de experiencias en materia de salud, innovación, bienestar animal, inocuidad, producción libre de antibióticos en beneficio de la población mundial.",
+    "parrafo2": "Durante su estadía podrán disfrutar de la Feria Comercial, Conferencias Científicas y por primera vez en el OVUM una serie de Simulacros muy enriquecedores.",
+    "parrafo3": "Estamos sumamente emocionados de poderles recibir; Gracias por venir y visitar San Pedro Sula, por estar aquí en Honduras, ¡Bienvenidos a la tierra de los Mayas! Una tierra bendecida por su patrimonio, legado histórico y cultural. Una tierra de inagotable atractivo turístico, playas exuberantes que conquistan al mundo y, por supuesto, con un extraordinario potencial para los negocios. Una tierra de gente cálida, trabajadora y emprendedora. Una tierra rica y generosa que trasciende el tiempo y el espacio.",
+    "parrafo4": "Con todo mi aprecio,"
+  },
+  "Exposicion": {
+    "botonIntro": "Saltar Intro",
+    "volver": "Volver",
+    "modalTitulo": "Patrocinios",
+    "cardTitulo1": "Patrocinadores",
+    "cardTitulo2": "Auspiciador",
+    "cardTitulo3": "Auspiciador",
+    "cardTitulo4": "Auspiciador",
+    "cardTitulo5": "Auspiciador",
+    "cardTitulo6": "Auspiciador",
+    "cardTitulo7": "Stand Básicos",
+    "tituloPatrocinador": "PATROCINADOR"
+  },
+  "Conferencista": {
+    "titulo": "CONFERENCISTAS",
+    "cards": [
+      {
+        "nombre": "Gary Butcher",
+        "foto": "Gary-Butcher",
+        "cardParrafo": "Variantes Bronquitis Infecciosa Aviar, Nuevos Retos para Latinoamérica",
+        "fecha": "Mie. 7 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Kate Barger",
+        "foto": "Kate-Barger",
+        "cardParrafo": "Bienestar Animal-Historia,Evolución e Implementación Práctica para la Industria Avícola",
+        "fecha": "Mie. 7 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Eduardo Cervantes Lopez",
+        "foto": "Eduardo-Cervantes-Lopez",
+        "cardParrafo": "Plan de Vuelo Digital para Estandarizar los Decomisos,Aumentando en laPlanta el Rendimiento en Seco de las Carcasas",
+        "fecha": "Mie. 7 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Leticia Arroyo",
+        "foto": "Leticia-Arroyo",
+        "cardParrafo": "Evaluacion de Riesgos Microbiológicos: La Importancia de la Cuantificacion y la Serotipificacion",
+        "fecha": "Mie. 7 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Rafael Fernández",
+        "foto": "Rafael-Fernández",
+        "cardParrafo": "Laringotraqueitis Infecciosa;Enfermedad de Newcastle e Influenza Aviar; Continúa Amenaza para la Avicultura Latinoamericana",
+        "fecha": "Mie. 7 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Santiago Avendaño",
+        "foto": "Santiago-Avendaño",
+        "cardParrafo": "Genetica, Bienestar Animal y Sostenibilidad",
+        "fecha": "Mie. 7 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Juan F. Devillena",
+        "foto": "Juan-F-Devillena",
+        "cardParrafo": "Nuevo Enfoque para el Control de Patógenos y Manejo de la inocuidad Alimentaria en el Procesamiento Avícola: Biomapa de indicadores y patógenos en concentraciones de químicos normales vs. Reducidas.",
+        "fecha": "Mie. 7 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Liliana Alvarado",
+        "foto": "Liliana-Alvarado",
+        "cardParrafo": "La Importancia de los Sentidos",
+        "fecha": "Mie. 7 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "David Swayne",
+        "foto": "David-Swayne",
+        "cardParrafo": "La Experiencia de Estados Unidos en el Control de la Influenza Aviar: Lecciones Aprendidas para la Preparación en América Latina",
+        "fecha": "Mie. 7 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Mark Allen",
+        "foto": "Mark-Allen",
+        "cardParrafo": "Experiencia de la Industria Europea del Huevo frente a la Producción Libre de Jaulas y sus Recomendaciones para Latinoamérica",
+        "fecha": "Mie. 7 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Veerle Hautekiet",
+        "foto": "Veerle-Hautekiet",
+        "cardParrafo": "Manejo de la Salud Intestinal sin Antibióticos",
+        "fecha": "Mie. 7 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Peter Ferket",
+        "foto": "Peter-Ferket",
+        "cardParrafo": "Nutrición In Ovo",
+        "fecha": "Mie. 7 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "María del Pilar Castañeda",
+        "foto": "María-del-Pilar-Castañeda",
+        "cardParrafo": "Bienestar Animal en Captura,Transporte y Sacrificio de Pollo de Engorde",
+        "fecha": "Mie. 7 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Rebeca Zamora",
+        "foto": "Rebeca-Zamora",
+        "cardParrafo": "Evaluación del Bienestar dePollos de Engorde a Nivel Comercial",
+        "fecha": "Mie. 7 Sep.12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Juan Carlos López",
+        "foto": "Juan-Carlos-Lopez",
+        "cardParrafo": "Enfermedades Aviares que Afectan las Reproductoras y sus Efectos en los Nacimientos y la Calidad de la Cascara de los Huevos",
+        "fecha": "Mie. 7 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Joe DePippo",
+        "foto": "Joe-DePippo",
+        "cardParrafo": "Tendencias del Consumidor",
+        "fecha": "Mie. 7 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Enrique Montiel",
+        "foto": "Enrique-Montiel",
+        "cardParrafo": "La Importancia del Alimento en la Transimision de Patógenos en la Avicultura Moderna: El Desafío de la Producción de Aves Libres de Antibióticos",
+        "fecha": "Jue. 8 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Wanderley Quinteiro Filho",
+        "foto": "Wanderley-Quinteiro-Filho",
+        "cardParrafo": "La Importancia de los Biomarcadores para la Evaluación de la Salud Intestinal.",
+        "fecha": "Jue. 8 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Fernando Sampedro",
+        "foto": "Fernando-Sampedro",
+        "cardParrafo": "Evaluacion de Riesgos Microbiológicos: La Importancia de la Cuantificacion y la Serotipificacion en la Planta de Proceso",
+        "fecha": "Jue. 8 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Leonardo Tielo de la Vega",
+        "foto": "Leonardo-Tielo-de-la-Vega",
+        "cardParrafo": "Bienestar Animal Aplicado aPromoción Comercial",
+        "fecha": "Jue. 8 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Algis Martinez",
+        "foto": "Algis-Martinez",
+        "cardParrafo": "Programa Sanitario en Reproductoras con Enfoque a Producir Pollos Libres de Antibióticos",
+        "fecha": "Jue. 8 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Alba Fireman",
+        "foto": "Alba-Fireman",
+        "cardParrafo": "Nutrición Micromineral de Gallinas",
+        "fecha": "Jue. 8 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Marcos Sanchez Plata",
+        "foto": "Marcos-Sanchez-Plata",
+        "cardParrafo": "Intervenciones en la Planta de Proceso para Control de Salmonella, como una Medida de Control Inmediata, en Casos de Aumento de la Prevalencia del Patógeno en Campo.",
+        "fecha": "Jue. 8 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Winfridus Bakker",
+        "foto": "Winfridus-Bakker",
+        "cardParrafo": "Avances en Tecnología de Reproductoras",
+        "fecha": "Jue. 8 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Swamy Haladi",
+        "foto": "Swamy-Haladi",
+        "cardParrafo": "Descifrando el Misterio de las Micotoxinas en las Aves de Corral: Desde la Materia Prima hasta el Alimento Balanceado, el Transporte y la Toxicidad en los Órganos.",
+        "fecha": "Jue. 8 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Wilmer Pacheco",
+        "foto": "Wilmer-Pacheco",
+        "cardParrafo": "Efecto del Tamaño de Partícula y Calidad de Pellet en el Rendimiento de Pollos de Engorde",
+        "fecha": "Jue. 8 Sep.11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Leon Schouren Tea Key",
+        "foto": "Leon-Schouren-Tea-Key",
+        "cardParrafo": "Sexaje In Ovo: Una Nueva Realidad en Europa",
+        "fecha": "Jue. 8 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Mario Penz",
+        "foto": "Mario-Penz",
+        "cardParrafo": "Nutrición de Precisión",
+        "fecha": "Jue. 8 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Martha Pulido",
+        "foto": "Martha-Pulido",
+        "cardParrafo": "Importancia del Concepto 'Presión de Infección' en el Control de Salmonelas Paratíficas y Salmonelas Aviares en la Producción Avícola",
+        "fecha": "Jue. 8 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Guillermo Reyes",
+        "foto": "Guillermo-Reyes",
+        "cardParrafo": "Producción Libre de Antibióticos? Empecemos en la incubadora!",
+        "fecha": "Jue. 8 Sep.12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Luis Klein",
+        "foto": "Luis-Klein",
+        "cardParrafo": "Comparación entre Distintas Formas de Produción de Pavo Integral",
+        "fecha": "Jue. 8 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Marvin Moncada",
+        "foto": "Marvin-Moncada",
+        "cardParrafo": "Tecnología de Proteínas Alternativas, Desafíos y Oportunidades Para la Industria Alimentaria",
+        "fecha": "Jue. 8 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Eliana Icochea",
+        "foto": "Eliana-Icochea",
+        "cardParrafo": "Hepatitis a Cuerpos de Inclusión: Emergencia de Nuevos Serotipos, Factores Condicionantes y Herramientas de Control",
+        "fecha": "Vie. 9 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Horacio Gamero",
+        "foto": "Horacio-Gamero",
+        "cardParrafo": "Importancia en el Crecimiento de las Aves de Engorde Libre de Antibióticos y su Tendencia en elFuturo",
+        "fecha": "Vie. 9 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Rodrigo Espinoza",
+        "foto": "Rodrigo-Espinoza",
+        "cardParrafo": "Programas Libre de Antibióticos y Uso Reducido de Antibióticos en la Producción de Pollos de Engorde",
+        "fecha": "Vie. 9 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Ricardo Guerra",
+        "foto": "Ricardo-Guerra",
+        "cardParrafo": "Sostenibilidad, Ambiente y Tecnología",
+        "fecha": "Vie. 9 Sep. 9:00 am a 9:45 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Isabel Gimeno",
+        "foto": "Isabel-Gimeno",
+        "cardParrafo": "Enfermedad de Marek: Diagnostico, Control y Uso de Vacunas Recombinantes",
+        "fecha": "Vie. 9 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Rogerio Frozza",
+        "foto": "Rogerio-Frozza",
+        "cardParrafo": "Cómo Afecta Positivamente en el Bienestar Animal el Uso de Probióticos, al Mismo Tiempo que Reduce el Uso de Antibióticos",
+        "fecha": "Vie. 9 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Fabio Nunes",
+        "foto": "Fabio-Nunes",
+        "cardParrafo": "Estrategias para Mejorar la Calidad, el Rendimiento y la Productividad en la Planta de Procesamiento",
+        "fecha": "Vie. 9 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Ana Maia",
+        "foto": "Ana-Maia",
+        "cardParrafo": "Avicultura 4.0",
+        "fecha": "Vie. 9 Sep. 9:50 a 10:35 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Susan Watkins",
+        "foto": "Susan-Watkins",
+        "cardParrafo": "Agua: ¿Qué Necesitan las Aves de Corral?",
+        "fecha": "Vie. 9 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Randall Singer",
+        "foto": "Randall-Singer",
+        "cardParrafo": "Reducción del Uso de Antibiótico en la Producción Avícola y su Efecto, Percepción del Consumidor, Bienestar, Salud Animal y Económico",
+        "fecha": "Vie. 9 Sep.11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Daniel Valbuena",
+        "foto": "Daniel-Valbuena",
+        "cardParrafo": "La importancia del Manejo en la Expresión del Potencial Genético de la Ponedora Moderna",
+        "fecha": "Vie. 9 Sep.11:45 a 12:30 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Theo Hoen",
+        "foto": "Theo-Hoen",
+        "cardParrafo": "Robótica, Tecnología e Innovación en la cadena Avícola: Del tenedor a la granja",
+        "fecha": "Vie. 9 Sep. 11:45 a 12:30 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      },
+      {
+        "nombre": "Javier Uriarte",
+        "foto": "Javier-Uriarte",
+        "cardParrafo": "Micoplasmosis, que Funciona en su Control, Vacunación, Medicación o Ambos",
+        "fecha": "Vie. 9 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/roatan",
+        "sala": "Sala Roatán"
+      },
+      {
+        "nombre": "Yordan Matinez Aguilar",
+        "foto": "Yordan-Matinez-Aguilar",
+        "cardParrafo": "Nuevos Aditivos en la Nutrición Avícola, Desempeño y Sustentabilidad",
+        "fecha": "Vie. 9 Sep.12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Rafael Vignoli",
+        "foto": "Rafael-Vignoli",
+        "cardParrafo": "Siguiendo la Ruta de la Resistencia a los Antibióticos en la Cadena Aviar",
+        "fecha": "Vie. 9 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/copan",
+        "sala": "Sala Copán"
+      },
+      {
+        "nombre": "Alejandro Horvath",
+        "foto": "Alejandro-Horvath",
+        "cardParrafo": "Granjas Inteligentes",
+        "fecha": "Vie. 9 Sep. 12:35 a 13:20 hrs,",
+        "link": "salas/yohoa",
+        "sala": "Sala Yohoa"
+      }
+    ]
+  },
+  "Programa": {
+    "botonIntro": "Saltar Intro",
+    "volver": "Volver",
+    "modalTitulo": "Programa Científico"
+  },
+  "Sala": {
+    "botonIntro": "Saltar Intro",
+    "volver": "Volver",
+    "modalTitulo": "Salas de Conferencias",
+    "sala1": "Sala",
+    "sala2": "Sala",
+    "sala3": "Sala",
+    "sala4": "Sala",
+    "videoRoatan7": "https://www.youtube.com/embed/L7kMNys_7YQ?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoRoatan8": "https://www.youtube.com/embed/snboudRiq2M?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoRoatan9": "https://www.youtube.com/embed/8bG3HHCJPcE?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoCopan7": "https://www.youtube.com/embed/oAnjMy2xRAc?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoCopan8": "https://www.youtube.com/embed/dnsYs20js8Y?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoCopan9": "https://www.youtube.com/embed/hw8nEt-wUCI?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoOmoa7": "https://www.youtube.com/embed/nl9wiBjQSNE?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoOmoa8": "https://www.youtube.com/embed/40sOPVa_vRM?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoOmoa9": "https://www.youtube.com/embed/1E0qIv-Yw34?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoYojoa7": "https://www.youtube.com/embed/rBmNGiykVGc?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoYojoa8": "https://www.youtube.com/embed/QIp_tmhyP9A?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1",
+    "videoYojoa9": "https://www.youtube.com/embed/AUE1Kw3jJes?autoplay=1&rel=0&mute=1&loop=1&enablejsapi=1"
+  },
+  "Patrocinador": {
+    "modalTitulo": "Patrocinios / Patrocinador",
+    "volver": "Volver",
+    "tituloPatrocinador": "PATROCINADOR"
+  },
+  "AuspiciadorA": {
+    "modalTitulo": "Patrocinios / Auspiciador A",
+    "volver": "Volver",
+    "tituloPatrocinador": "AUSPICIADOR A"
+  },
+  "AuspiciadorB": {
+    "modalTitulo": "Patrocinios / Auspiciador B",
+    "volver": "Volver",
+    "tituloPatrocinador": "AUSPICIADOR B"
+  },
+  "AuspiciadorC": {
+    "modalTitulo": "Patrocinios / Auspiciador C",
+    "volver": "Volver",
+    "tituloPatrocinador": "AUSPICIADOR C "
+  },
+  "AuspiciadorD": {
+    "modalTitulo": "Patrocinios / Auspiciador D",
+    "volver": "Volver",
+    "tituloPatrocinador": "AUSPICIADOR D"
+  },
+  "AuspiciadorE": {
+    "modalTitulo": "Patrocinios / Auspiciador E",
+    "volver": "Volver",
+    "tituloPatrocinador": "AUSPICIADOR E"
+  },
+  "StandBasico": {
+    "modalTitulo": "Patrocinios / Stand Basico",
+    "volver": "Volver",
+    "tituloPatrocinador": "STAND BASICO"
+  },
+  "PatrocinadorSlug": {
+    "modalTitulo": "Patrocinador",
+    "volver": "Volver",
+    "informacion": "Información",
+    "contacto": "Contacto",
+    "telefono": "Telefono",
+    "direccion": "Direccion",
+    "ingresarEmail": "Ingresar tu e-mail",
+    "ingresaConsulta": "Entrar tu consulta",
+    "enviar": "Enviar",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "Linkedin",
+    "Instagram": "Instagram"
+  },
+  "cargill": {
+    "parrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  "cmi": {
+    "parrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  "trouw": {
+    "parrafo": "Trouw Nutrition, es una empresa de origen holandés, perteneciente al grup Nutreco, con más de 90 años de liderazgo en nutrición animal. Trouw Nutrition es una compañía basada en ciencia y enfocada en la nutrición de precisión. Cuenta con 5 centros de investigación, 12 granjas de validación alrededor del mundo, y presencia en más de 105 países, cubriendo América Latina.Su misión es Alimentar el Futuro, por lo que sus actividades de Investigación y Desarrollo están diseñadas para traducir la ciencia en soluciones nutricionales innovadoras y aplicables a las condiciones locales de manera práctica, rentable y sostenible.Trouw Nutrition se caracteriza por su enfoque integrado que comprende la nutrición, el manejo y la salud animal. Este enfoque le permite brindar programas, compuestos de soluciones y servicios, específicamente diseñados para las condiciones de cada granja donde no solo se enfocan en resolver los retos presentes, sino apoyar las mejoras y monitorear el progreso."
+  }
+}

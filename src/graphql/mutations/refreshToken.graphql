@@ -1,0 +1,17 @@
+mutation RefreshToken {
+  refreshToken {
+    data {
+      id
+      email
+      name
+      lastname
+      createdAt
+      updatedAt
+      token
+    }
+    errors {
+      field
+      message
+    }
+  }
+}

@@ -113,7 +113,7 @@ const Lobby = (props) => {
         .match('/image/360/lobby.webp')
         .then((res) => lobbyRef.current.setAttribute('src', res.url))
       caches
-        .match('/image/video/exteriorLobby.mp4')
+        .match('/image/video/Lobby_animado.mp4')
         .then((res) => lobbyVideo.current.setAttribute('src', res.url))
       // console.log(videoRef.current, exteriorLobbyRef.current)
     }

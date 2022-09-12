@@ -21,7 +21,7 @@ export default function Home(props) {
   const [showLogin, setShowLogin] = useState(false)
   const [videoExterior, setVideoExterior] = useState(true)
   const [isActive, setIsActive] = useState(false)
-  const [isLoader, setIsLoader] = useState(false)
+  const [isLoader, setIsLoader] = useState(true)
   const { titulo, TextButton, TextButtonRegistrarse, subtitulo } = props.Inicio
   const { campo1, campo2, textButton, textPassword } = props.ModalInicio
   const videoRef = useRef(null)
@@ -29,13 +29,14 @@ export default function Home(props) {
   const changeVideo = () => {
     setIsVideo(false)
     // exteriorLobby.play()
-    exteriorLobbyRef.current.play()
   }
   const endVideoLobby = () => {
     setisModal(true)
+    setIsActive(true)
   }
   const endVideoExterior = () => {
     setVideoExterior(false)
+    setIsLoader(false)
   }
 
   if (typeof window !== 'undefined') {
@@ -50,9 +51,7 @@ export default function Home(props) {
         .then(() => {
           return cache.match('/image/video/Exterior.mp4').then((resp) => {
             return (
-              videoRef.current.setAttribute('src', resp.url),
-              console.log(resp),
-              setIsActive(true)
+              videoRef.current.setAttribute('src', resp.url), console.log(resp)
             )
           })
         })

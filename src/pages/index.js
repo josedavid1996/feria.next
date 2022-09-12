@@ -29,7 +29,7 @@ export default function Home(props) {
   const exteriorLobbyRef = useRef(null)
 
   const { archivos, setArchivos } = useContext(ArchivosContext)
-  // console.log(archivos)
+  console.log(archivos)
 
   const changeVideo = () => {
     setIsVideo(false)
@@ -66,16 +66,10 @@ export default function Home(props) {
   // }
 
   if (typeof window !== 'undefined') {
-    !archivos &&
-      caches
-        .match('/image/video/Exterior.mp4')
-        .then((res) => videoRef.current.setAttribute('src', res.url))
-    !archivos &&
-      caches
-        .match('/image/video/exteriorLobby.mp4')
-        .then((res) => exteriorLobbyRef.current.setAttribute('src', res.url))
+    !archivos && caches.match('/image/video/Exterior.mp4')
+    !archivos && caches.match('/image/video/exteriorLobby.mp4')
   }
-
+  console.log({ videoRef }, { exteriorLobbyRef })
   return (
     <>
       <Head>
@@ -89,7 +83,7 @@ export default function Home(props) {
         ref={videoRef}
         // onEnded={endVideoExterior}
         id="video"
-        // src="image/video/Exterior.mp4"
+        src="http://localhost:3000/image/video/Exterior.mp4"
         autoPlay
         loop
         muted
@@ -118,7 +112,7 @@ export default function Home(props) {
       ></video> */}
 
       <video
-        // src="image/video/exteriorLobby.mp4"
+        src="http://localhost:3000/image/video/exteriorLobby.mp4"
         autoPlay
         ref={exteriorLobbyRef}
         preload="true"

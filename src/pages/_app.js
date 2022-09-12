@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
   if (typeof window !== 'undefined') {
     caches.has('archivos').then((res) => {
       if (res) {
-        return
+        return setArchivos(false)
       } else {
         caches.open('archivos').then((cache) => {
           cache

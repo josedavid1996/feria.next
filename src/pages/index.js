@@ -26,6 +26,7 @@ export default function Home(props) {
   const { campo1, campo2, textButton, textPassword } = props.ModalInicio
   const videoRef = useRef(null)
   const exteriorLobbyRef = useRef(null)
+
   const changeVideo = () => {
     setIsVideo(false)
     // exteriorLobby.play()
@@ -33,7 +34,6 @@ export default function Home(props) {
   }
   const endVideoLobby = () => {
     setisModal(true)
-    setIsActive(true)
   }
   const endVideoExterior = () => {
     setVideoExterior(false)
@@ -58,9 +58,6 @@ export default function Home(props) {
           return exteriorLobbyRef.current.setAttribute('src', resp.url)
         })
       })
-      // cache.match('/image/video/exteriorLobby.mp4').then((res) => {
-      //   return exteriorLobbyRef.current.setAttribute('src', res.url)
-      // })
     })
   }
   return (
@@ -72,8 +69,8 @@ export default function Home(props) {
       </Head>
 
       <video
-        ref={videoRef}
         onPlay={endVideoExterior}
+        ref={videoRef}
         // onEnded={endVideoExterior}
         id="video"
         // src="image/video/Exterior.mp4"
@@ -81,7 +78,9 @@ export default function Home(props) {
         loop
         muted
         playsInline
-        className={`block w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
+        className={`${
+          isVideo ? 'block' : 'hidden'
+        } w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
         poster="image/exterior-image.jpg"
         preload="true"
       ></video>
@@ -111,7 +110,9 @@ export default function Home(props) {
         muted
         playsInline
         poster="image/exterior-image.jpg"
-        className={` w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
+        className={`${
+          isVideo ? 'hidden' : 'block'
+        } w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
       ></video>
 
       {/* <video

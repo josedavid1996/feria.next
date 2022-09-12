@@ -125,13 +125,13 @@ const Lobby = (props) => {
       ></video>
 
       {/* IMAGEN 390 */}
-      <div
+      {/* <div
         className={`${
           isLoader ? 'block' : 'hidden'
         } fixed  top-0 right-0 bottom-0 left-0 z-[9999] bg-slate-500`}
       >
         <h1 className="font-bold text-7xl text-white ">Cargando...</h1>
-      </div>
+      </div> */}
       <div className="block xlg:hidden">
         {appRendered && (
           <Scene>

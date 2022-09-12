@@ -20,7 +20,7 @@ export default function Home(props) {
   const [isSettings, setIsSettings] = useState(false)
   const [showLogin, setShowLogin] = useState(false)
   const [videoExterior, setVideoExterior] = useState(true)
-  const [isActive, setIsActive] = useState(true)
+  const [isActive, setIsActive] = useState(false)
   const [isLoader, setIsLoader] = useState(false)
   const { titulo, TextButton, TextButtonRegistrarse, subtitulo } = props.Inicio
   const { campo1, campo2, textButton, textPassword } = props.ModalInicio
@@ -42,17 +42,23 @@ export default function Home(props) {
     caches.open('images').then((cache) => {
       // cache.add('/image/exterior-image.jpg')
       cache
-        .addAll(['/image/exterior-image.jpg', '/image/video/Exterior.mp4'])
+        .addAll([
+          '/image/exterior-image.jpg',
+          '/image/video/Exterior.mp4',
+          '/image/video/exteriorLobby.mp4'
+        ])
         .then(() => {
           return cache.match('/image/video/Exterior.mp4').then((resp) => {
-            return videoRef.current.setAttribute('src', resp.url)
-            // setIsLoader(true)
+            return (
+              videoRef.current.setAttribute('src', resp.url),
+              console.log(resp),
+              setIsActive(true)
+            )
           })
         })
 
-      // .then((image) => {
-      //   videoRef.current.setAttribute('src', image)
-      //   setIsLoader(false)
+      // cache.match('/image/video/exteriorLobby.mp4').then((res) => {
+      //   return exteriorLobbyRef.current.setAttribute('src', res.url)
       // })
     })
   }
@@ -100,7 +106,7 @@ export default function Home(props) {
       <video
         src="image/video/exteriorLobby.mp4"
         autoPlay
-        ref={exteriorLobbyRef}
+        // ref={exteriorLobbyRef}
         preload="true"
         onEnded={endVideoLobby}
         muted

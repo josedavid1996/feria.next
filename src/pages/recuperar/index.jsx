@@ -51,7 +51,7 @@ const Recuperar = (props) => {
             <form id="form" className=" flex flex-col items-center ">
               <div className="mb-[14.84px] flex">
                 <label
-                  forhtml="email"
+                  htmlFor="email"
                   className="text-[15px] font-light leading-[21px] mr-9 font-open"
                 >
                   {campo1}

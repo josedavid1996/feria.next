@@ -1,14 +1,14 @@
-import Image from "next/image";
-import Link from "next/link";
-import React, { useState } from "react";
-import { Formik } from "formik";
-import isEmail from "validator/lib/isEmail";
-import isEmpty from "validator/lib/isEmpty";
+import Image from 'next/image'
+import Link from 'next/link'
+import React, { useState } from 'react'
+import { Formik } from 'formik'
+import isEmail from 'validator/lib/isEmail'
+import isEmpty from 'validator/lib/isEmpty'
 
-import mapGqlErrors from "../utils/mapGqlErrors";
-import { useLoginMutation } from "../generated/graphql";
-import { IconClose } from "../icons";
-import { useRouter } from "next/router";
+import mapGqlErrors from '../utils/mapGqlErrors'
+import { useLoginMutation } from '../generated/graphql'
+import { IconClose } from '../icons'
+import { useRouter } from 'next/router'
 
 const ModalLogin = ({
   isModal,
@@ -16,23 +16,23 @@ const ModalLogin = ({
   campo1,
   campo2,
   textButton,
-  textPassword,
+  textPassword
 }) => {
-  const router = useRouter();
-  const [login, { loading }] = useLoginMutation();
-  const [validacion, setValidacion] = useState("");
+  const router = useRouter()
+  const [login, { loading }] = useLoginMutation()
+  const [validacion, setValidacion] = useState('')
   return (
     <div
       id="modal"
       className={`absolute top-0 right-0 bottom-0 left-0 z-10  justify-center items-center ${
-        isModal ? "flex" : "hidden"
+        isModal ? 'flex' : 'hidden'
       }`}
     >
       <div className="w-[350px] sm:w-[393px]  bg-white rounded-[13px] pt-[15px] pr-[22px] pb-[22px] pl-[20px] relative z-30">
         <IconClose
           className="w-6 h-6 absolute top-1 right-1 cursor-pointer"
           onClick={() => {
-            setisModal(false);
+            setisModal(false)
           }}
         />
         <div className="relative w-[300px] h-[150px]  sm:w-[350px] sm:h-[167px] mb-[15px]">
@@ -44,35 +44,35 @@ const ModalLogin = ({
           />
         </div>
         <Formik
-          initialValues={{ email: "", password: "" }}
+          initialValues={{ email: '', password: '' }}
           validate={(values) => {
-            const errors = {};
+            const errors = {}
 
             if (!isEmail(values.email)) {
-              errors.email = "Ingrese email valido";
+              errors.email = 'Ingrese email valido'
             }
 
             if (isEmpty(values.password)) {
-              errors.password = "Este campo es requerido";
+              errors.password = 'Este campo es requerido'
             }
-            console.log(errors);
-            return errors;
+            console.log(errors)
+            return errors
           }}
           onSubmit={async (values, { setErrors }) => {
-            const res = await login({ variables: { input: values } });
+            const res = await login({ variables: { input: values } })
 
             if (res.data.login.errors) {
-              const newErrors = mapGqlErrors(res.data.login.errors);
-              setErrors(newErrors);
-              return;
+              const newErrors = mapGqlErrors(res.data.login.errors)
+              setErrors(newErrors)
+              return
             }
 
-            const { token, ...usuario } = res.data.login.data;
-            localStorage.setItem("token", token);
+            const { token, ...usuario } = res.data.login.data
+            localStorage.setItem('token', token)
 
             // TODO: Guardar datos del usuario en un estado global si es necesario
 
-            router.push("/lobby");
+            router.push('/lobby')
           }}
         >
           {({
@@ -81,7 +81,7 @@ const ModalLogin = ({
             touched,
             handleChange,
             handleBlur,
-            handleSubmit,
+            handleSubmit
           }) => (
             <form
               id="form"
@@ -90,7 +90,7 @@ const ModalLogin = ({
             >
               <div className="mb-[14.84px] flex">
                 <label
-                  forhtml=""
+                  htmlFor=""
                   className="text-[15px] font-light leading-[21px] mr-9 font-open"
                 >
                   {campo1}
@@ -108,7 +108,7 @@ const ModalLogin = ({
               {touched.email && errors.email && setValidacion(errors.email)}
               <div className="mb-[28.8px] flex">
                 <label
-                  forhtml=""
+                  htmlFor=""
                   className="text-[15px] font-light leading-[21px] mr-[10px] font-open"
                 >
                   {campo2}
@@ -149,7 +149,7 @@ const ModalLogin = ({
         )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ModalLogin;
+export default ModalLogin

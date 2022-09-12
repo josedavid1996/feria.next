@@ -66,8 +66,14 @@ export default function Home(props) {
   // }
 
   if (typeof window !== 'undefined') {
-    !archivos && caches.match('/image/video/Exterior.mp4')
-    !archivos && caches.match('/image/video/exteriorLobby.mp4')
+    !archivos &&
+      caches
+        .match('/image/video/Exterior.mp4')
+        .then((res) => videoRef.current.setAttribute('src', res.url))
+    !archivos &&
+      caches
+        .match('/image/video/exteriorLobby.mp4')
+        .then((res) => exteriorLobbyRef.current.setAttribute('src', res.url))
   }
   console.log({ videoRef }, { exteriorLobbyRef })
   return (
@@ -83,7 +89,7 @@ export default function Home(props) {
         ref={videoRef}
         // onEnded={endVideoExterior}
         id="video"
-        src="http://localhost:3000/image/video/Exterior.mp4"
+        // src="image/video/Exterior.mp4"
         autoPlay
         loop
         muted
@@ -112,7 +118,7 @@ export default function Home(props) {
       ></video> */}
 
       <video
-        src="http://localhost:3000/image/video/exteriorLobby.mp4"
+        // src="image/video/exteriorLobby.mp4"
         autoPlay
         ref={exteriorLobbyRef}
         preload="true"

@@ -29,7 +29,6 @@ export default function Home(props) {
   const exteriorLobbyRef = useRef(null)
 
   const { archivos, setArchivos } = useContext(ArchivosContext)
-  console.log(archivos)
 
   const changeVideo = () => {
     setIsVideo(false)
@@ -66,16 +65,16 @@ export default function Home(props) {
   // }
 
   if (typeof window !== 'undefined') {
-    !archivos &&
+    if (archivos === false) {
       caches
         .match('/image/video/Exterior.mp4')
         .then((res) => videoRef.current.setAttribute('src', res.url))
-    !archivos &&
       caches
         .match('/image/video/exteriorLobby.mp4')
         .then((res) => exteriorLobbyRef.current.setAttribute('src', res.url))
+      // console.log(videoRef.current, exteriorLobbyRef.current)
+    }
   }
-  console.log({ videoRef }, { exteriorLobbyRef })
   return (
     <>
       <Head>

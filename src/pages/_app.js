@@ -43,7 +43,8 @@ function MyApp({ Component, pageProps }) {
               '/image/exterior-image.jpg',
               '/image/video/Exterior.mp4',
               '/image/video/exteriorLobby.mp4',
-              '/image/360/lobby.webp'
+              '/image/360/lobby.webp',
+              'image/video/Lobby_animado.mp4'
             ])
             .then(() => setArchivos(false))
         })

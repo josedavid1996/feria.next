@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import { Entity, Scene } from '@belivvr/aframe-react'
 import {
   IconCheck,
@@ -21,6 +21,7 @@ import ModalQuestion from '../../components/ModalQuestion'
 import ModalMaps from '../../components/ModalMaps'
 import Idiomas from '../../components/Idiomas'
 import Image from 'next/image'
+import { ArchivosContext } from '../../context/archivos'
 
 const isServer = () => typeof window === 'undefined'
 const Lobby = (props) => {
@@ -50,8 +51,10 @@ const Lobby = (props) => {
   const [showMobile, setShowMobile] = useState(false)
   const [imageLobby, setImageLobby] = useState('')
   const [isLoader, setIsLoader] = useState(true)
+  const { archivos, setArchivos } = useContext(ArchivosContext)
 
   const lobbyRef = useRef(null)
+  const lobbyVideo = useRef(null)
 
   // if (typeof window !== 'undefined') {
   //   caches.open('lobby').then((cache) => {
@@ -103,12 +106,36 @@ const Lobby = (props) => {
       setShowMobile(true)
     }
   }, [])
+
+  if (typeof window !== 'undefined') {
+    if (archivos === false) {
+      caches
+        .match('/image/360/lobby.webp')
+        .then((res) => lobbyRef.current.setAttribute('src', res.url))
+      caches
+        .match('/image/video/exteriorLobby.mp4')
+        .then((res) => lobbyVideo.current.setAttribute('src', res.url))
+      // console.log(videoRef.current, exteriorLobbyRef.current)
+    }
+  }
+  // if (typeof window !== 'undefined') {
+  //   if (archivos === false) {
+  //     caches
+  //       .match('/image/360/lobby.webp')
+  //       .then((res) => videoRef.current.setAttribute('src', res.url))
+  //     caches
+  //       .match('/image/video/Lobby_animado.mp4')
+  //       .then((res) => exteriorLobbyRef.current.setAttribute('src', res.url))
+  //     // console.log(videoRef.current, exteriorLobbyRef.current)
+  //   }
+  // }
   return (
     <>
       <Head>
         <title>Lobby</title>
       </Head>
       <video
+        ref={lobbyVideo}
         // onPlay={endVideoExterior}
         // onEnded={endVideoExterior}
         id="video"
@@ -336,7 +363,7 @@ const Lobby = (props) => {
             ></a-image>
 
             <a-sky
-              src={`/image/360/${sky}.webp`}
+              ref={lobbyRef}
               rotation="0 -90 0"
               position={`0 ${positionSky} -18`}
             ></a-sky>

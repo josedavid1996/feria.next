@@ -29,6 +29,7 @@ export default function Home(props) {
   const changeVideo = () => {
     setIsVideo(false)
     // exteriorLobby.play()
+    exteriorLobbyRef.current.play()
   }
   const endVideoLobby = () => {
     setisModal(true)
@@ -110,9 +111,7 @@ export default function Home(props) {
         muted
         playsInline
         poster="image/exterior-image.jpg"
-        className={`${
-          isVideo ? 'hidden' : 'hidden sm:block'
-        } w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
+        className={` w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
       ></video>
 
       {/* <video
@@ -296,7 +295,7 @@ export default function Home(props) {
       <div
         className={`${
           isLoader ? 'block' : 'hidden'
-        } absolute  top-0 right-0 bottom-0 left-0 z-[9999] bg-slate-500`}
+        } fixed  top-0 right-0 bottom-0 left-0 z-[9999] bg-slate-500`}
       >
         <h1 className="font-bold text-7xl text-white ">Cargando...</h1>
       </div>

@@ -49,6 +49,7 @@ const Lobby = (props) => {
   const [positionCalender, setPositionCalender] = useState(0.5)
   const [showMobile, setShowMobile] = useState(false)
   const [imageLobby, setImageLobby] = useState('')
+  const [isLoader, setIsLoader] = useState(true)
 
   const lobbyRef = useRef(null)
 
@@ -57,7 +58,9 @@ const Lobby = (props) => {
       // cache.add('/image/exterior-image.jpg')
       cache.addAll(['/image/360/lobby.webp']).then(() => {
         return cache.match('/image/360/lobby.webp').then((resp) => {
+          console.log(resp)
           setImageLobby(resp.url)
+          setIsLoader(false)
         })
       })
     })
@@ -122,6 +125,13 @@ const Lobby = (props) => {
       ></video>
 
       {/* IMAGEN 390 */}
+      <div
+        className={`${
+          isLoader ? 'block' : 'hidden'
+        } fixed  top-0 right-0 bottom-0 left-0 z-[9999] bg-slate-500`}
+      >
+        <h1 className="font-bold text-7xl text-white ">Cargando...</h1>
+      </div>
       <div className="block xlg:hidden">
         {appRendered && (
           <Scene>

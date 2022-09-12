@@ -9,7 +9,7 @@ import { refreshToken } from '../api'
 import SocketProvider from '../context/SocketProvider'
 
 function MyApp({ Component, pageProps }) {
-   useEffect(() => {
+  useEffect(() => {
     refreshToken().then((res) => {
       if (!res?.refreshToken?.data && res?.refreshToken?.errors) {
         // TODO: Setter errores si es necesario
@@ -26,6 +26,8 @@ function MyApp({ Component, pageProps }) {
 
       // TODO: Guardar datos del usuario en un estado global si es necesario
     })
+
+    // descarga de archivos
   }, [])
 
   return (

@@ -7,8 +7,10 @@ import { ApolloProvider } from '@apollo/client'
 import client from '../apollo'
 import { refreshToken } from '../api'
 import SocketProvider from '../context/SocketProvider'
+import { ArchivosContext } from '../context/archivos'
 
 function MyApp({ Component, pageProps }) {
+  const [archivos, setArchivos] = useState(true)
   useEffect(() => {
     refreshToken().then((res) => {
       if (!res?.refreshToken?.data && res?.refreshToken?.errors) {
@@ -30,12 +32,39 @@ function MyApp({ Component, pageProps }) {
     // descarga de archivos
   }, [])
 
+  if (typeof window !== 'undefined') {
+    caches.has('archivos').then((res) => {
+      if (res) {
+        return
+      } else {
+        caches.open('archivos').then((cache) => {
+          cache
+            .addAll([
+              '/image/exterior-image.jpg',
+              '/image/video/Exterior.mp4',
+              '/image/video/exteriorLobby.mp4',
+              '/image/360/lobby.webp'
+            ])
+            .then(() => setArchivos(false))
+        })
+      }
+    })
+    // caches.open('archivos').then((cache) => {})
+  }
+  console.log({ archivos })
   return (
-    <SocketProvider>
-      <ApolloProvider client={client}>
-        <Component {...pageProps} />
-      </ApolloProvider>
-    </SocketProvider>
+    <ArchivosContext.Provider
+      value={{
+        archivos,
+        setArchivos
+      }}
+    >
+      <SocketProvider>
+        <ApolloProvider client={client}>
+          <Component {...pageProps} />
+        </ApolloProvider>
+      </SocketProvider>
+    </ArchivosContext.Provider>
   )
 }
 

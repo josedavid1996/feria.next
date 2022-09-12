@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { useEffect, useRef, useState } from 'react'
+import { useContext, useEffect, useRef, useState } from 'react'
 import Idiomas from '../components/Idiomas'
 import ModalLogin from '../components/ModalLogin'
+import { ArchivosContext } from '../context/archivos'
 import {
   IconClose,
   IconMenu,
@@ -27,6 +28,9 @@ export default function Home(props) {
   const videoRef = useRef(null)
   const exteriorLobbyRef = useRef(null)
 
+  const { archivos, setArchivos } = useContext(ArchivosContext)
+  // console.log(archivos)
+
   const changeVideo = () => {
     setIsVideo(false)
     // exteriorLobby.play()
@@ -40,26 +44,38 @@ export default function Home(props) {
     setIsLoader(false)
   }
 
-  if (typeof window !== 'undefined') {
-    caches.open('images').then((cache) => {
-      // cache.add('/image/exterior-image.jpg')
-      cache
-        .addAll(['/image/exterior-image.jpg', '/image/video/Exterior.mp4'])
-        .then(() => {
-          return cache.match('/image/video/Exterior.mp4').then((resp) => {
-            return (
-              videoRef.current.setAttribute('src', resp.url), console.log(resp)
-            )
-          })
-        })
+  // if (typeof window !== 'undefined') {
+  //   caches.open('images').then((cache) => {
+  //     // cache.add('/image/exterior-image.jpg')
+  //     cache
+  //       .addAll(['/image/exterior-image.jpg', '/image/video/Exterior.mp4'])
+  //       .then(() => {
+  //         return cache.match('/image/video/Exterior.mp4').then((resp) => {
+  //           return (
+  //             videoRef.current.setAttribute('src', resp.url), console.log(resp)
+  //           )
+  //         })
+  //       })
 
-      cache.add('/image/video/exteriorLobby.mp4').then((res) => {
-        cache.match('/image/video/exteriorLobby.mp4').then((resp) => {
-          return exteriorLobbyRef.current.setAttribute('src', resp.url)
-        })
-      })
-    })
+  //     cache.add('/image/video/exteriorLobby.mp4').then((res) => {
+  //       cache.match('/image/video/exteriorLobby.mp4').then((resp) => {
+  //         return exteriorLobbyRef.current.setAttribute('src', resp.url)
+  //       })
+  //     })
+  //   })
+  // }
+
+  if (typeof window !== 'undefined') {
+    !archivos &&
+      caches
+        .match('/image/video/Exterior.mp4')
+        .then((res) => videoRef.current.setAttribute('src', res.url))
+    !archivos &&
+      caches
+        .match('/image/video/exteriorLobby.mp4')
+        .then((res) => exteriorLobbyRef.current.setAttribute('src', res.url))
   }
+
   return (
     <>
       <Head>
@@ -295,7 +311,7 @@ export default function Home(props) {
 
       <div
         className={`${
-          isLoader ? 'block' : 'hidden'
+          archivos ? 'block' : 'hidden'
         } fixed  top-0 right-0 bottom-0 left-0 z-[9999] bg-slate-500`}
       >
         <h1 className="font-bold text-7xl text-white ">Cargando...</h1>

@@ -53,18 +53,18 @@ const Lobby = (props) => {
 
   const lobbyRef = useRef(null)
 
-  if (typeof window !== 'undefined') {
-    caches.open('lobby').then((cache) => {
-      // cache.add('/image/exterior-image.jpg')
-      cache.addAll(['/image/360/lobby.webp']).then(() => {
-        return cache.match('/image/360/lobby.webp').then((resp) => {
-          console.log(resp)
-          setImageLobby(resp.url)
-          setIsLoader(false)
-        })
-      })
-    })
-  }
+  // if (typeof window !== 'undefined') {
+  //   caches.open('lobby').then((cache) => {
+  //     // cache.add('/image/exterior-image.jpg')
+  //     cache.addAll(['/image/360/lobby.webp']).then(() => {
+  //       return cache.match('/image/360/lobby.webp').then((resp) => {
+  //         console.log(resp)
+  //         setImageLobby(resp.url)
+  //         setIsLoader(false)
+  //       })
+  //     })
+  //   })
+  // }
   // console.log(imageLobby)
   const router = useRouter()
   const { textHeader1, textHeader2, ButtonHeader, toast } = props.Lobby
@@ -336,8 +336,7 @@ const Lobby = (props) => {
             ></a-image>
 
             <a-sky
-              src={imageLobby}
-              // ref={lobbyRef}
+              src={`/image/360/${sky}.webp`}
               rotation="0 -90 0"
               position={`0 ${positionSky} -18`}
             ></a-sky>

@@ -43,11 +43,7 @@ export default function Home(props) {
     caches.open('images').then((cache) => {
       // cache.add('/image/exterior-image.jpg')
       cache
-        .addAll([
-          '/image/exterior-image.jpg',
-          '/image/video/Exterior.mp4',
-          '/image/video/exteriorLobby.mp4'
-        ])
+        .addAll(['/image/exterior-image.jpg', '/image/video/Exterior.mp4'])
         .then(() => {
           return cache.match('/image/video/Exterior.mp4').then((resp) => {
             return (
@@ -56,6 +52,11 @@ export default function Home(props) {
           })
         })
 
+      cache.add('/image/video/exteriorLobby.mp4').then((res) => {
+        cache.match('/image/video/exteriorLobby.mp4').then((resp) => {
+          return exteriorLobbyRef.current.setAttribute('src', resp.url)
+        })
+      })
       // cache.match('/image/video/exteriorLobby.mp4').then((res) => {
       //   return exteriorLobbyRef.current.setAttribute('src', res.url)
       // })
@@ -79,14 +80,12 @@ export default function Home(props) {
         loop
         muted
         playsInline
-        className={`${
-          isVideo ? 'hidden sm:block' : 'hidden'
-        } w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
+        className={`block w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
         poster="image/exterior-image.jpg"
         preload="true"
       ></video>
 
-      <video
+      {/* <video
         onPlay={endVideoExterior}
         // onEnded={endVideoExterior}
         id="video"
@@ -100,12 +99,12 @@ export default function Home(props) {
         } w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
         poster="image/exterior-image-mobile.jpg"
         preload="true"
-      ></video>
+      ></video> */}
 
       <video
-        src="image/video/exteriorLobby.mp4"
+        // src="image/video/exteriorLobby.mp4"
         autoPlay
-        // ref={exteriorLobbyRef}
+        ref={exteriorLobbyRef}
         preload="true"
         onEnded={endVideoLobby}
         muted
@@ -116,7 +115,7 @@ export default function Home(props) {
         } w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
       ></video>
 
-      <video
+      {/* <video
         src="image/video/ExteriorLobbyMobile.mp4"
         autoPlay
         ref={exteriorLobbyRef}
@@ -128,7 +127,7 @@ export default function Home(props) {
         className={`${
           isVideo ? 'hidden' : 'block sm:hidden'
         } w-full absolute top-0 left-0 h-screen sm:h-full object-cover bottom-0`}
-      ></video>
+      ></video> */}
 
       <main className="relative overflow-hidden">
         <div className=" w-full relative min-h-screen">

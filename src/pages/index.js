@@ -21,7 +21,7 @@ export default function Home(props) {
   const [showLogin, setShowLogin] = useState(false)
   const [videoExterior, setVideoExterior] = useState(true)
   const [isActive, setIsActive] = useState(true)
-  const [isLoader, setIsLoader] = useState(true)
+  const [isLoader, setIsLoader] = useState(false)
   const { titulo, TextButton, TextButtonRegistrarse, subtitulo } = props.Inicio
   const { campo1, campo2, textButton, textPassword } = props.ModalInicio
   const videoRef = useRef(null)
@@ -41,18 +41,21 @@ export default function Home(props) {
   if (typeof window !== 'undefined') {
     caches.open('images').then((cache) => {
       // cache.add('/image/exterior-image.jpg')
-      cache.addAll(['/image/exterior-image.jpg', '/image/video/Exterior.mp4'])
-
       cache
-        .match('/image/video/Exterior.mp4')
-        .then((res) => res?.url)
-        .then((image) => {
-          videoRef.current.setAttribute('src', image)
-          setIsLoader(false)
+        .addAll(['/image/exterior-image.jpg', '/image/video/Exterior.mp4'])
+        .then(() => {
+          return cache.match('/image/video/Exterior.mp4').then((resp) => {
+            return videoRef.current.setAttribute('src', resp.url)
+            // setIsLoader(true)
+          })
         })
+
+      // .then((image) => {
+      //   videoRef.current.setAttribute('src', image)
+      //   setIsLoader(false)
+      // })
     })
   }
-  console.log(videoRef.current)
   return (
     <>
       <Head>

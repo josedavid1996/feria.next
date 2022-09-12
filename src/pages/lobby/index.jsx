@@ -406,7 +406,7 @@ const Lobby = (props) => {
           </div>
 
           {/* Button Cerrar Sesion */}
-          <Link href="/">
+          {/* <Link href="/">
             <a
               className={`${
                 isSesion ? 'block' : 'hidden'
@@ -414,7 +414,7 @@ const Lobby = (props) => {
             >
               {ButtonHeader}
             </a>
-          </Link>
+          </Link> */}
 
           {/* <div className="flex mb-2 justify-between  items-center w-full sm:w-auto sm:flex-row-reverse">
             <a
@@ -586,7 +586,7 @@ const Lobby = (props) => {
           </div>
 
           {/* Button Cerrar Sesion */}
-          <Link href="/">
+          {/* <Link href="/">
             <a
               className={`${
                 isSesion ? 'block' : 'hidden'
@@ -594,7 +594,7 @@ const Lobby = (props) => {
             >
               {ButtonHeader}
             </a>
-          </Link>
+          </Link> */}
 
           {/* <div className="flex mb-2 justify-between  items-center w-full sm:w-auto sm:flex-row-reverse">
             <a

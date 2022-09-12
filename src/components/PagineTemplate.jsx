@@ -76,7 +76,7 @@ export const PagineTemplate = ({
           />
         </div>
         {/* Button Cerrar Sesion */}
-        <Link href="/">
+        {/* <Link href="/">
           <a
             className={`${
               isSesion ? 'block' : 'hidden'
@@ -84,7 +84,7 @@ export const PagineTemplate = ({
           >
             {ButtonHeader}
           </a>
-        </Link>
+        </Link> */}
         {/* <div className="flex mb-2 justify-between  lg:translate-x-[-192px] items-center w-full sm:w-auto sm:flex-row-reverse">
           <a
             onClick={(e) => router.push('/')}

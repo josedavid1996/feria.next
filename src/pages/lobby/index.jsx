@@ -162,61 +162,6 @@ const Lobby = (props) => {
       <div className="block xlg:hidden">
         {appRendered && (
           <Scene>
-            <a-assets>
-              <a-asset-item
-                id="sala-obj"
-                src="/image/3d/sala.obj"
-              ></a-asset-item>
-              <a-asset-item
-                id="sala-mtl"
-                src="/image/3d/sala.mtl"
-              ></a-asset-item>
-              <a-asset-item
-                id="ovum-obj"
-                src="/image/3d/ovum.obj"
-              ></a-asset-item>
-              <a-asset-item
-                id="ovum-mtl"
-                src="/image/3d/ovum.mtl"
-              ></a-asset-item>
-
-              <a-asset-item
-                id="programa-obj"
-                src="/image/3d/programa.obj"
-              ></a-asset-item>
-              <a-asset-item
-                id="programa-mtl"
-                src="/image/3d/programa.mtl"
-              ></a-asset-item>
-
-              <a-asset-item
-                id="conferencista-obj"
-                src="/image/3d/conferencista.obj"
-              ></a-asset-item>
-              <a-asset-item
-                id="conferencista-mtl"
-                src="/image/3d/conferencista.mtl"
-              ></a-asset-item>
-
-              <a-asset-item
-                id="exposicion-obj"
-                src="/image/3d/exposicion.obj"
-              ></a-asset-item>
-              <a-asset-item
-                id="exposicion-mtl"
-                src="/image/3d/exposicion.mtl"
-              ></a-asset-item>
-            </a-assets>
-            {/* <a-obj-model
-            src="#sala-obj"
-            mtl="#sala-mtl"
-            position="-21 6 -18"
-            rotation="170 -20 90"
-            class="indicador"
-            onClick={(e) => router.push('/salas')}
-            animation="property: rotation; to: 170 340 90; loop: true; dur: 10000;easing:linear"
-          ></a-obj-model> */}
-
             {/* SALA */}
             <a-image
               src="/image/indicadores/salaImage.png"
@@ -227,18 +172,6 @@ const Lobby = (props) => {
               onClick={(e) => router.push('/salas')}
             ></a-image>
             {/* ==== */}
-
-            {/* <a-obj-model
-            id="exposicion"
-            ref={exposicionRef}
-            src="#exposicion-obj"
-            mtl="#exposicion-mtl"
-            class="indicador"
-            position="-9.5 5.5 -18"
-            rotation="170 -50 90"
-            animation="property: rotation; to: 170 310 90; loop: true; dur: 10000;easing:linear"
-            onClick={(e) => router.push('/exposicion')}
-          ></a-obj-model> */}
 
             {/* ESPOSICION */}
             <a-image
@@ -251,16 +184,6 @@ const Lobby = (props) => {
             ></a-image>
             {/* ==== */}
 
-            {/* <a-obj-model
-            id="ovum"
-            src="#ovum-obj"
-            mtl="#ovum-mtl"
-            position="0.2 6 -17"
-            class="indicador"
-            rotation="6.9 -89 -90"
-            animation="property: rotation; to: 6.9 271 -90; loop: true; dur: 10000;easing:linear"
-          ></a-obj-model> */}
-
             {/* OVUM */}
             <a-image
               src="/image/indicadores/uvomImage.png"
@@ -272,17 +195,7 @@ const Lobby = (props) => {
             ></a-image>
             {/* ==== */}
             {/* 
-          <a-obj-model
-            id="conferencistas"
-            ref={conferencistaRef}
-            mtl="#conferencista-mtl"
-            src="#conferencista-obj"
-            class="indicador"
-            position="8 5 -17"
-            rotation="6.2 -113 -90"
-            animation="property: rotation; to: 6.2 247 -90; loop: true; dur: 10000;easing:linear"
-            onClick={(e) => router.push('/conferencista')}
-          ></a-obj-model> */}
+         
             {/* CONFERENCISTAS */}
             <a-image
               src="/image/indicadores/conferencistasImage.png"
@@ -293,17 +206,6 @@ const Lobby = (props) => {
               onClick={(e) => router.push('/conferencista')}
             ></a-image>
             {/* ==== */}
-            {/* <a-obj-model
-            id="programa"
-            ref={programaRef}
-            src="#programa-obj"
-            mtl="#programa-mtl"
-            position="15.5 5 -15"
-            class="indicador"
-            rotation="11.48 -46.53 -89"
-            animation="property: rotation; to: 11.48 313,47 -89; loop: true; dur: 10000;easing:linear"
-            onClick={(e) => router.push('/programas')}
-          ></a-obj-model> */}
 
             {/* PROGRAMA */}
             <a-image
@@ -363,7 +265,7 @@ const Lobby = (props) => {
             ></a-image>
 
             <a-sky
-              src="https://feria-ovum1.s3.amazonaws.com/lobby.webp"
+              src={`/image/360/${sky}.webp`}
               rotation="0 -90 0"
               position={`0 ${positionSky} -18`}
             ></a-sky>

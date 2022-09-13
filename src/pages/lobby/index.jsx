@@ -157,7 +157,7 @@ const Lobby = (props) => {
         {appRendered && (
           <Scene>
             <a-assets>
-              <img id="sky" src={`/image/360/${sky}.webp`} alt="lobby" />
+              <img id="sky" src={`/image/360/${sky}.webp`} alt="lobbyMobile" />
             </a-assets>
             {/* SALA */}
             <a-image

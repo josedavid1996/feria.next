@@ -48,7 +48,7 @@ const Exposicion = (props) => {
         // onPlay={endVideoExterior}
         // onEnded={endVideoExterior}
         id="video"
-        src="/image/video/intro-video_stands.mp4"
+        src="https://feria-ovum1.s3.amazonaws.com/intro-video_stands.mp4"
         autoPlay
         playsInline
         // loop
@@ -68,7 +68,7 @@ const Exposicion = (props) => {
         // onPlay={endVideoExterior}
         // onEnded={endVideoExterior}
         id="video"
-        src="/image/video/intro-video_standsMobile.mp4"
+        src="https://feria-ovum1.s3.amazonaws.com/intro-video_standsMobile.mp4"
         autoPlay
         loop
         playsInline

@@ -32,27 +32,27 @@ function MyApp({ Component, pageProps }) {
     // descarga de archivos
   }, [])
 
-  if (typeof window !== 'undefined') {
-    caches.has('archivos').then((res) => {
-      if (res) {
-        return setArchivos(false)
-      } else {
-        caches.open('archivos').then((cache) => {
-          cache
-            .addAll([
-              '/image/exterior-image.jpg',
-              '/image/video/Exterior.mp4',
-              '/image/video/exteriorLobby.mp4',
-              '/image/360/lobby.webp',
-              'image/video/Lobby_animado.mp4'
-            ])
-            .then(() => setArchivos(false))
-        })
-      }
-    })
-    // caches.open('archivos').then((cache) => {})
-  }
-  console.log({ archivos })
+  // if (typeof window !== 'undefined') {
+  //   caches.has('archivos').then((res) => {
+  //     if (res) {
+  //       return setArchivos(false)
+  //     } else {
+  //       caches.open('archivos').then((cache) => {
+  //         cache
+  //           .addAll([
+  //             '/image/exterior-image.jpg',
+  //             '/image/video/Exterior.mp4',
+  //             '/image/video/exteriorLobby.mp4',
+  //             '/image/360/lobby.webp',
+  //             'image/video/Lobby_animado.mp4'
+  //           ])
+  //           .then(() => setArchivos(false))
+  //       })
+  //     }
+  //   })
+  //   // caches.open('archivos').then((cache) => {})
+  // }
+  // console.log({ archivos })
   return (
     <ArchivosContext.Provider
       value={{

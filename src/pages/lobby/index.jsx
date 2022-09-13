@@ -107,17 +107,17 @@ const Lobby = (props) => {
     }
   }, [])
 
-  if (typeof window !== 'undefined') {
-    if (archivos === false) {
-      caches
-        .match('/image/360/lobby.webp')
-        .then((res) => lobbyRef.current.setAttribute('src', res.url))
-      caches
-        .match('/image/video/Lobby_animado.mp4')
-        .then((res) => lobbyVideo.current.setAttribute('src', res.url))
-      // console.log(videoRef.current, exteriorLobbyRef.current)
-    }
-  }
+  // if (typeof window !== 'undefined') {
+  //   if (archivos === false) {
+  //     caches
+  //       .match('/image/360/lobby.webp')
+  //       .then((res) => lobbyRef.current.setAttribute('src', res.url))
+  //     caches
+  //       .match('/image/video/Lobby_animado.mp4')
+  //       .then((res) => lobbyVideo.current.setAttribute('src', res.url))
+  //     // console.log(videoRef.current, exteriorLobbyRef.current)
+  //   }
+  // }
   // if (typeof window !== 'undefined') {
   //   if (archivos === false) {
   //     caches
@@ -139,7 +139,7 @@ const Lobby = (props) => {
         // onPlay={endVideoExterior}
         // onEnded={endVideoExterior}
         id="video"
-        src="image/video/Lobby_animado.mp4"
+        src="https://feria-ovum1.s3.amazonaws.com/Lobby_animado.mp4"
         autoPlay
         loop
         playsInline
@@ -363,7 +363,7 @@ const Lobby = (props) => {
             ></a-image>
 
             <a-sky
-              ref={lobbyRef}
+              src={`/image/360/${sky}.webp`}
               rotation="0 -90 0"
               position={`0 ${positionSky} -18`}
             ></a-sky>
@@ -586,7 +586,7 @@ const Lobby = (props) => {
           </div>
 
           {/* Button Cerrar Sesion */}
-          {/* <Link href="/">
+          <Link href="/">
             <a
               className={`${
                 isSesion ? 'block' : 'hidden'
@@ -594,7 +594,7 @@ const Lobby = (props) => {
             >
               {ButtonHeader}
             </a>
-          </Link> */}
+          </Link>
 
           {/* <div className="flex mb-2 justify-between  items-center w-full sm:w-auto sm:flex-row-reverse">
             <a

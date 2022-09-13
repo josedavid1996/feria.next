@@ -85,7 +85,10 @@ const Salas = (props) => {
       <div>
         <video
           id="video"
-          src={`/image/video/${
+          // src={`/image/video/${
+          //   buttonIntro ? 'PasilloLoop' : 'PasilloConferencia'
+          // }.mp4`}
+          src={`https://feria-ovum1.s3.amazonaws.com/${
             buttonIntro ? 'PasilloLoop' : 'PasilloConferencia'
           }.mp4`}
           autoPlay
@@ -102,7 +105,10 @@ const Salas = (props) => {
         ></video>
         <video
           id="video"
-          src={`/image/video/${
+          // src={`/image/video/${
+          //   buttonIntro ? 'PasilloLoopMobile' : 'PasilloConferenciaMobile'
+          // }.mp4`}
+          src={`https://feria-ovum1.s3.amazonaws.com/${
             buttonIntro ? 'PasilloLoopMobile' : 'PasilloConferenciaMobile'
           }.mp4`}
           autoPlay

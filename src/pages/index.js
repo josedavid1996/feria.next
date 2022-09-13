@@ -64,17 +64,17 @@ export default function Home(props) {
   //   })
   // }
 
-  if (typeof window !== 'undefined') {
-    if (archivos === false) {
-      caches
-        .match('/image/video/Exterior.mp4')
-        .then((res) => videoRef.current.setAttribute('src', res.url))
-      caches
-        .match('/image/video/exteriorLobby.mp4')
-        .then((res) => exteriorLobbyRef.current.setAttribute('src', res.url))
-      // console.log(videoRef.current, exteriorLobbyRef.current)
-    }
-  }
+  // if (typeof window !== 'undefined') {
+  //   if (archivos === false) {
+  //     caches
+  //       .match('/image/video/Exterior.mp4')
+  //       .then((res) => videoRef.current.setAttribute('src', res.url))
+  //     caches
+  //       .match('/image/video/exteriorLobby.mp4')
+  //       .then((res) => exteriorLobbyRef.current.setAttribute('src', res.url))
+  //     // console.log(videoRef.current, exteriorLobbyRef.current)
+  //   }
+  // }
   return (
     <>
       <Head>
@@ -88,7 +88,7 @@ export default function Home(props) {
         ref={videoRef}
         // onEnded={endVideoExterior}
         id="video"
-        // src="image/video/Exterior.mp4"
+        src="https://feria-ovum1.s3.amazonaws.com/Exterior.mp4"
         autoPlay
         loop
         muted
@@ -117,7 +117,7 @@ export default function Home(props) {
       ></video> */}
 
       <video
-        // src="image/video/exteriorLobby.mp4"
+        src="https://feria-ovum1.s3.amazonaws.com/exteriorLobby.mp4"
         autoPlay
         ref={exteriorLobbyRef}
         preload="true"
@@ -308,13 +308,13 @@ export default function Home(props) {
         textPassword={textPassword}
       />
 
-      <div
+      {/* <div
         className={`${
           archivos ? 'block' : 'hidden'
         } fixed  top-0 right-0 bottom-0 left-0 z-[9999] bg-slate-500`}
       >
         <h1 className="font-bold text-7xl text-white ">Cargando...</h1>
-      </div>
+      </div> */}
     </>
   )
 }

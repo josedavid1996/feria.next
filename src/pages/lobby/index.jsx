@@ -363,8 +363,8 @@ const Lobby = (props) => {
             ></a-image>
 
             <a-sky
-              src={`feria-ovum1.s3.amazonaws.com/${sky}.webp`}
-              https:rotation="0 -90 0"
+              src={`/image/360/${sky}.webp`}
+              rotation="0 -90 0"
               position={`0 ${positionSky} -18`}
             ></a-sky>
             <a-entity

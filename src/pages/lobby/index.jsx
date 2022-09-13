@@ -156,9 +156,9 @@ const Lobby = (props) => {
       <div className="block xlg:hidden">
         {appRendered && (
           <Scene>
-            {/* <a-assets>
+            <a-assets>
               <img id="sky" src={`/image/360/${sky}.webp`} alt="lobbyMobile" />
-            </a-assets> */}
+            </a-assets>
             {/* SALA */}
             <a-image
               src="/image/indicadores/salaImage.png"
@@ -262,7 +262,7 @@ const Lobby = (props) => {
             ></a-image>
 
             <a-sky
-              src="image/360-1.jpg"
+              src="#sky"
               rotation="0 -90 0"
               position={`0 ${positionSky} -18`}
             ></a-sky>

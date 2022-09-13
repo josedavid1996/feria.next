@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
-import { Entity, Scene } from '@belivvr/aframe-react'
+import { Entity, Scene, Sky } from '@belivvr/aframe-react'
 import {
   IconCheck,
   IconConferencistas,

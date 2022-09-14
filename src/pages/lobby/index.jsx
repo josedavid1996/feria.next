@@ -134,6 +134,13 @@ const Lobby = (props) => {
       <Head>
         <title>Lobby</title>
       </Head>
+      <div
+        className={`${
+          isLoader ? 'block' : 'hidden'
+        } fixed  top-0 right-0 bottom-0 left-0 z-[9999] bg-slate-500`}
+      >
+        <h1 className="font-bold text-7xl text-white ">Cargando...</h1>
+      </div>
       <video
         ref={lobbyVideo}
         // onPlay={endVideoExterior}
@@ -157,7 +164,12 @@ const Lobby = (props) => {
         {appRendered && (
           <Scene oading-screen="dotsColor: red; backgroundColor: black">
             <a-assets>
-              <img id="sky" src={`/image/360/${sky}.webp`} alt="lobbyMobile" />
+              <img
+                onLoad={() => setIsLoader(false)}
+                id="sky"
+                src={`/image/360/${sky}.webp`}
+                alt="lobbyMobile"
+              />
             </a-assets>
             {/* SALA */}
             <a-image
@@ -262,7 +274,7 @@ const Lobby = (props) => {
             ></a-image>
 
             <a-sky
-              src="#sky"
+              src={`/image/360/${sky}.webp`}
               rotation="0 -90 0"
               position={`0 ${positionSky} -18`}
             ></a-sky>

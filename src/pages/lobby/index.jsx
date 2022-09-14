@@ -155,7 +155,7 @@ const Lobby = (props) => {
 
       <div className="block xlg:hidden">
         {appRendered && (
-          <Scene>
+          <Scene oading-screen="dotsColor: red; backgroundColor: black">
             <a-assets>
               <img id="sky" src={`/image/360/${sky}.webp`} alt="lobbyMobile" />
             </a-assets>

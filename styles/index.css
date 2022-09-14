@@ -199,3 +199,6 @@ body {
 .swiper-pagination-bullet-active {
   background-color: #7d005e !important;
 }
+.a-loader-title {
+  color: red;
+}

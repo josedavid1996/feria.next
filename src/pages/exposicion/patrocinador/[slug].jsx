@@ -155,9 +155,9 @@ const Patrocinador = (props) => {
         } fixed  top-0 right-0 bottom-0 left-0 z-30 cargill`}
       ></div>
 
-      <div className={`${isLoader ? 'hidden' : 'block'}`}>
+      <div>
         {appRendered && (
-          <Scene loading-screen="enabled: false">
+          <Scene loading-screen="backgroundColor: black">
             <a-assets>
               <img
                 onLoad={() => setIsLoader(false)}

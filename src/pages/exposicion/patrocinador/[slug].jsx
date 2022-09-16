@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Entity, Scene } from '@belivvr/aframe-react'
 import images from '../../../assets/data.json'
 import { PagineTemplate } from '../../../components/PagineTemplate'
@@ -29,9 +29,19 @@ const Patrocinador = (props) => {
   const [arrow3, setArrow3] = useState('15 -2 -11')
   const [video1, setVideo1] = useState('-2.5 2 -11')
   const [video2, setVideo2] = useState('5 2 -11')
+  const [resolucion, setResolucion] = useState(10)
+
+  const imgRef = useRef(null)
+  // console.log(imgRef.current.setAttribute(src))
+
+  // const newURL = imgRef.current?.getAttribute('data-src')
+  // // imgRef.current.src = newURL
+  // if (imgRef.current === null) {
+  //   console.log('por fiiiiiiin')
+  // }
+
   const data = props.data
   const patrocinador = '/exposicion/patrocinador'
-  console.log(data)
 
   const {
     modalTitulo,
@@ -86,17 +96,17 @@ const Patrocinador = (props) => {
     }
   }, [])
 
-  if (appRendered) {
-    AFRAME.registerComponent('cargo', {
-      init: function () {
-        const $sky = document.querySelector('#sky')
-        console.log($sky.src)
-        // const newURL = $sky.getAttribute('data-src')
-        // console.log(newURL)
-        // $sky.setAttribute('src', newURL)
-      }
-    })
-  }
+  // if (appRendered) {
+  //   AFRAME.registerComponent('cargo', {
+  //     init: function () {
+  //       const $sky = document.querySelector('#sky')
+  //       console.log($sky.src)
+  //       // const newURL = $sky.getAttribute('data-src')
+  //       // console.log(newURL)
+  //       // $sky.setAttribute('src', newURL)
+  //     }
+  //   })
+  // }
 
   useEffect(() => {
     if (window.screen.availWidth <= 360) {
@@ -109,6 +119,30 @@ const Patrocinador = (props) => {
     }
   }, [])
 
+  // useEffect(() => {
+  //   if (typeof window !== 'undefined') {
+  //     console.log(document)
+  //     const images = document.querySelectorAll('.img')
+  //     console.log(images)
+  //     const imgOptions = {}
+
+  //     const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+  //       entries.forEach((entry) => {
+  //         if (!entry.isIntersecting) return
+
+  //         const img = entry.target
+  //         img.src = img.src.replace('w=10&', 'w=800&')
+  //         imgObserver.unobserve(entry.target)
+  //       })
+  //     }, imgOptions)
+
+  //     images.forEach((img) => {
+  //       imgObserver.observe(img)
+  //       console.log(img)
+  //     })
+  //   }
+  // }, [])
+
   return (
     <>
       <Head>
@@ -118,6 +152,18 @@ const Patrocinador = (props) => {
       <div>
         {appRendered && (
           <Scene>
+            <a-assets>
+              <img
+                crossOrigin="anonymous"
+                className="img"
+                ref={imgRef}
+                onLoad={() => setResolucion(800)}
+                id="sky"
+                src="https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=10&q=80"
+                data-src="https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                alt="lobbyMobile"
+              />
+            </a-assets>
             <a-image
               src="/image/stand-arrow.png"
               height="1"
@@ -181,9 +227,12 @@ const Patrocinador = (props) => {
               animation="property: opacity;from: 0;  to: 1;dur: 1000"
             ></a-image>
             <a-sky
+              // onLoad={console.log('cargue')}
               cargo
               // src={`/image/360/patrocinador/${data}.webp`}
-              src="https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=10&q=80"
+              // src={`https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${resolucion}&q=80`}
+              // src="#sky"
+              color="#00ff00"
               rotation="0 -90 0"
               position={sky}
               data-src="https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"

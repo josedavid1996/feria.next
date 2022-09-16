@@ -149,22 +149,22 @@ const Patrocinador = (props) => {
       <Head>
         <title>{data}</title>
       </Head>
-      {/* <div
+      <div
         className={`${
           isLoader ? 'block' : 'hidden'
         } fixed  top-0 right-0 bottom-0 left-0 z-30 cargill`}
-      ></div> */}
+      ></div>
 
       <div>
         {appRendered && (
           <Scene loading-screen="backgroundColor: black">
             <a-assets>
-              <a-asset-item
-                src={`/image/360/patrocinador/${data}.webp`}
+              <img
                 onLoad={() => setIsLoader(false)}
                 id="sky2"
-              ></a-asset-item>
-              {/* <img onLoad={() => setIsLoader(false)} /> */}
+                src={`/image/360/patrocinador/${data}.webp`}
+                alt="lobbyMobile"
+              />
             </a-assets>
             <a-image
               src="/image/stand-arrow.png"

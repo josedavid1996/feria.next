@@ -149,13 +149,11 @@ const Patrocinador = (props) => {
       <Head>
         <title>{data}</title>
       </Head>
-      {/* <div
+      <div
         className={`${
           isLoader ? 'block' : 'hidden'
-        } fixed  top-0 right-0 bottom-0 left-0 z-[9999] cargill`}
-      >
-        <h1 className="font-bold text-7xl text-white "></h1>
-      </div> */}
+        } fixed  top-0 right-0 bottom-0 left-0  cargill`}
+      ></div>
 
       <div>
         {appRendered && (

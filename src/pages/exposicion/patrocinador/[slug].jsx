@@ -86,6 +86,19 @@ const Patrocinador = (props) => {
     }
   }, [])
 
+  if (appRendered) {
+    console.log('cargo')
+    AFRAME.registerComponent('cargo', {
+      init: function () {
+        const $sky = document.querySelector('#sky')
+        console.log($sky.src)
+        const newURL = $sky.getAttribute('data-src')
+        console.log(newURL)
+        $sky.setAttribute('src', newURL)
+      }
+    })
+  }
+
   useEffect(() => {
     if (window.screen.availWidth <= 360) {
       setSky('0 0 -300')
@@ -169,9 +182,13 @@ const Patrocinador = (props) => {
               animation="property: opacity;from: 0;  to: 1;dur: 1000"
             ></a-image>
             <a-sky
-              src={`/image/360/patrocinador/${data}.webp`}
+              cargo
+              // src={`/image/360/patrocinador/${data}.webp`}
+              src="https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=10&q=80"
               rotation="0 -90 0"
               position={sky}
+              data-src="https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+              id="sky"
             ></a-sky>
             <a-entity
               cursor="rayOrigin:mouse"

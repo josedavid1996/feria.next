@@ -92,9 +92,9 @@ const Patrocinador = (props) => {
       init: function () {
         const $sky = document.querySelector('#sky')
         console.log($sky.src)
-        const newURL = $sky.getAttribute('data-src')
-        console.log(newURL)
-        $sky.setAttribute('src', newURL)
+        // const newURL = $sky.getAttribute('data-src')
+        // console.log(newURL)
+        // $sky.setAttribute('src', newURL)
       }
     })
   }

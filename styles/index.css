@@ -29,6 +29,9 @@ body {
   background-size: cover;
   backdrop-filter: blur(20px);
 }
+.a-loader-title {
+  background-image: url('/image/cargill.jpg');
+}
 .conferencistas {
   background-image: url('/image/conferencistas.jpg');
   min-height: 100vh;

@@ -30,6 +30,7 @@ const Patrocinador = (props) => {
   const [video1, setVideo1] = useState('-2.5 2 -11')
   const [video2, setVideo2] = useState('5 2 -11')
   const [resolucion, setResolucion] = useState(10)
+  const [isLoader, setIsLoader] = useState(true)
 
   const imgRef = useRef(null)
   // console.log(imgRef.current.setAttribute(src))
@@ -148,19 +149,23 @@ const Patrocinador = (props) => {
       <Head>
         <title>{data}</title>
       </Head>
+      <div
+        className={`${
+          isLoader ? 'block' : 'hidden'
+        } fixed  top-0 right-0 bottom-0 left-0 z-[9999] cargill`}
+      >
+        <h1 className="font-bold text-7xl text-white "></h1>
+      </div>
 
       <div>
         {appRendered && (
           <Scene>
             <a-assets>
               <img
-                crossOrigin="anonymous"
-                className="img"
-                ref={imgRef}
-                onLoad={() => setResolucion(800)}
-                id="sky"
-                src="https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=10&q=80"
-                data-src="https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                loading="lazy"
+                onLoad={() => setIsLoader(false)}
+                id="sky2"
+                src={`/image/360/patrocinador/${data}.webp`}
                 alt="lobbyMobile"
               />
             </a-assets>
@@ -229,7 +234,7 @@ const Patrocinador = (props) => {
             <a-sky
               // onLoad={console.log('cargue')}
               // cargo
-              src={`/image/360/patrocinador/${data}.webp`}
+              src="#sky2"
               // src={`https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${resolucion}&q=80`}
               // src="#sky"
               // color="#00ff00"

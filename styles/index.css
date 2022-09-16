@@ -21,6 +21,13 @@ body {
   background-position: center;
   background-size: cover;
 }
+.cargill {
+  background-image: url('/image/cargill.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .conferencistas {
   background-image: url('/image/conferencistas.jpg');
   min-height: 100vh;

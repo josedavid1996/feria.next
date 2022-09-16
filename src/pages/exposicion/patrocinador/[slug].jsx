@@ -228,11 +228,11 @@ const Patrocinador = (props) => {
             ></a-image>
             <a-sky
               // onLoad={console.log('cargue')}
-              cargo
-              // src={`/image/360/patrocinador/${data}.webp`}
+              // cargo
+              src={`/image/360/patrocinador/${data}.webp`}
               // src={`https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${resolucion}&q=80`}
               // src="#sky"
-              color="#00ff00"
+              // color="#00ff00"
               rotation="0 -90 0"
               position={sky}
               data-src="https://images.unsplash.com/photo-1596263576925-d90d63691097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"

@@ -157,7 +157,7 @@ const Patrocinador = (props) => {
 
       <div>
         {appRendered && (
-          <Scene>
+          <Scene loading-screen="dotsColor: red; backgroundColor: black">
             <a-assets>
               <img
                 onLoad={() => setIsLoader(false)}

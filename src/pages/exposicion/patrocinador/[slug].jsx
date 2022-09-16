@@ -87,7 +87,6 @@ const Patrocinador = (props) => {
   }, [])
 
   if (appRendered) {
-    console.log('cargo')
     AFRAME.registerComponent('cargo', {
       init: function () {
         const $sky = document.querySelector('#sky')

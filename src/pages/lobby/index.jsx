@@ -146,7 +146,7 @@ const Lobby = (props) => {
         // onPlay={endVideoExterior}
         // onEnded={endVideoExterior}
         id="video"
-        src="https://feria-ovum1.s3.amazonaws.com/Lobby+Animado.m4v"
+        src="https://next-feria.s3.amazonaws.com/Lobby_animado.mp4"
         autoPlay
         loop
         playsInline

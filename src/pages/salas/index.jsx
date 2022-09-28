@@ -88,9 +88,9 @@ const Salas = (props) => {
           // src={`/image/video/${
           //   buttonIntro ? 'PasilloLoop' : 'PasilloConferencia'
           // }.mp4`}
-          src={`https://feria-ovum1.s3.amazonaws.com/${
-            buttonIntro ? 'Pasilloloop' : 'Pasilloconferencia'
-          }.m4v`}
+          src={`https://next-feria.s3.amazonaws.com/${
+            buttonIntro ? 'Pasilloloop' : 'PasilloConferencia'
+          }.mp4`}
           autoPlay
           playsInline
           muted
@@ -108,9 +108,9 @@ const Salas = (props) => {
           // src={`/image/video/${
           //   buttonIntro ? 'PasilloLoopMobile' : 'PasilloConferenciaMobile'
           // }.mp4`}
-          src={`https://feria-ovum1.s3.amazonaws.com/${
-            buttonIntro ? 'Pasilloloopmobile' : 'Pasilloconferenciamobile'
-          }.m4v`}
+          src={`https://next-feria.s3.amazonaws.com/${
+            buttonIntro ? 'PasilloLoopMobile' : 'PasilloConferenciaMobile'
+          }.mp4`}
           autoPlay
           loop
           muted

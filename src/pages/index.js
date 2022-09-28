@@ -88,7 +88,7 @@ export default function Home(props) {
         ref={videoRef}
         // onEnded={endVideoExterior}
         id="video"
-        src="https://feria-ovum1.s3.amazonaws.com/Exterior.m4v"
+        src="https://next-feria.s3.amazonaws.com/Exterior.mp4"
         autoPlay
         loop
         muted
@@ -117,7 +117,7 @@ export default function Home(props) {
       ></video> */}
 
       <video
-        src="https://feria-ovum1.s3.amazonaws.com/Exteriorlobby.m4v"
+        src="https://next-feria.s3.amazonaws.com/exteriorLobby.mp4"
         autoPlay
         ref={exteriorLobbyRef}
         preload="true"
